@@ -1,0 +1,24 @@
+{
+  "title": "只能选两样：从来不及、会忘记到说不清——五个核心，看懂复杂世界的取舍 / Pick Two: Five Ideas for Understanding a Complicated World",
+  "description": "<p>看得见的世界背后，都有一张看不见的账单；这张账单只有三个价格——看得准、拼得上、传得下去，最多付得起两个。本书用“看见、记住、跟上、选择、讲述”五个核心，把同一系列五本学术专著的思想，写成一本从十岁到专家都能读完的通俗读本：每节同时提供叙事、公式直觉、可带走的做法与专家的证据边界，并配以可复现的图解与五分钟小实验。</p><p>本仓库同时作为系列的<b>入口文档与外部登记库</b>：收录最小可验证单元、跨域盲测登记（append-only）、合并术语表与五核关系图。源码、构建流程见 <a href=\"https://github.com/lyp0746/knowledge-tradeoffs\">GitHub</a>。内容许可 CC BY 4.0；代码许可 MIT。</p>",
+  "creators": [
+    {"name": "李毅芃", "affiliation": "独立研究者 / Independent Researcher"}
+  ],
+  "keywords": ["只能选两样", "Pick Two", "不可能三角", "时间错配", "遗忘", "区分", "置信度", "复杂系统", "科普", "复杂知识系统的取舍"],
+  "notes": "科目 / Subjects — 中文：复杂系统、科学普及、信息论、认知科学、系统科学、科学方法论。English: Complex Systems, Popular Science, Information Theory, Cognitive Science, Systems Science, Scientific Methodology.",
+  "license": "CC-BY-4.0",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "language": "zho",
+  "access_right": "open",
+  "publication_date": "2026-10-16",
+  "related_identifiers": [
+    {"identifier": "https://github.com/lyp0746/knowledge-tradeoffs", "relation": "isSupplementedBy", "scheme": "url"},
+    {"identifier": "10.5281/zenodo.23286403", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23323277", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23412033", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23388629", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23416220", "relation": "references", "scheme": "doi"},
+    {"identifier": "https://github.com/lyp0746/hotspot-bills", "relation": "references", "scheme": "url"}
+  ]
+}

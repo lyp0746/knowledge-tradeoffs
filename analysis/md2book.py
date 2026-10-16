@@ -27,6 +27,7 @@ FILES = [
     ("04_选择.md", "ch04.html", None, "ch4"),
     ("05_讲述.md", "ch05.html", None, "ch5"),
     ("07_案例篇.md", "ch06.html", None, "ch6"),
+    ("08_问答.md", "ch07.html", None, "ch7"),
     ("06_尾声.md", "back_epilogue.html", None, "epilogue"),
     ("附录.md", "appendix_a.html", None, "apxA"),
 ]
