@@ -26,6 +26,7 @@ FILES = [
     ("03_跟上.md", "ch03.html", None, "ch3"),
     ("04_选择.md", "ch04.html", None, "ch4"),
     ("05_讲述.md", "ch05.html", None, "ch5"),
+    ("07_案例篇.md", "ch06.html", None, "ch6"),
     ("06_尾声.md", "back_epilogue.html", None, "epilogue"),
     ("附录.md", "appendix_a.html", None, "apxA"),
 ]
@@ -46,6 +47,8 @@ def box_class(text):
         return "box box-expert"
     if "动手试试" in text:
         return "box box-do"
+    if "一句话带走" in text:
+        return "box box-takeaway"
     return "box"
 
 
@@ -136,6 +139,14 @@ def parse_blocks(lines):
                 i += 1
             out.append("<ul>" + "".join(f"<li>{inline(x)}</li>" for x in items) + "</ul>")
             continue
+        # 有序列表
+        if re.match(r"\s*\d+\.\s+", raw):
+            items = []
+            while i < n and re.match(r"\s*\d+\.\s+", lines[i]):
+                items.append(re.sub(r"^\s*\d+\.\s+", "", lines[i]).rstrip())
+                i += 1
+            out.append("<ol>" + "".join(f"<li>{inline(x)}</li>" for x in items) + "</ol>")
+            continue
         # 段落
         para = [s]
         i += 1
@@ -147,8 +158,18 @@ def parse_blocks(lines):
                 break
             para.append(nxt)
             i += 1
-        out.append("<p>" + inline(" ".join(para)) + "</p>")
+        out.append(_wrap_para(inline(" ".join(para))))
     return "\n".join(out)
+
+
+def _wrap_para(para_text):
+    """把以【…】开头的段子自动包成提示框。"""
+    m = re.match(r"(?:<strong>)?【(.+?)】(?:</strong>)?", para_text)
+    if m:
+        tag = m.group(1)
+        if any(k in tag for k in ("多想一层", "再想一层", "给专家的注", "动手试试", "一句话带走")):
+            return f'<div class="{box_class(tag)}"><p>{para_text}</p></div>'
+    return f"<p>{para_text}</p>"
 
 
 def main():

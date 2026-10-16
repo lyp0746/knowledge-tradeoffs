@@ -20,7 +20,7 @@
 <p>假设你家的苹果可以用两个数字描述：<strong>甜度</strong>和<strong>大小</strong>。一个苹果就是一个点 <code>(甜度, 大小)</code>。两个苹果有多像？一个自然的办法是：<strong>把它们在每一个维度上的差，平方之后加起来。</strong></p>
 <p>苹果甲 <code>(8, 10)</code>，苹果乙 <code>(8, 10)</code>：差是 <code>(0, 0)</code>，平方和是 <code>0</code>——完全一样。 苹果甲 <code>(8, 10)</code>，苹果丙 <code>(6, 9)</code>：差是 <code>(-2, -1)</code>，平方和是 <code>4 + 1 = 5</code>——差了 5。 苹果甲 <code>(8, 10)</code>，苹果丁 <code>(3, 4)</code>：差是 <code>(-5, -6)</code>，平方和是 <code>25 + 36 = 61</code>——差得远。</p>
 <p>你看，<strong>"像不像"变成了一个数</strong>。这个"差的平方和"，就是一个<strong>二次型</strong>。</p>
-<p><strong>【多想一层】</strong> 把一组东西写成向量 <code>x</code>，"它的能量"或"它自己和自己有多像"，常常可以写成 <code>xᵀ M x</code> 的样子。这里的 <code>M</code> 是一个对称的矩阵，<code>xᵀ M x</code> 就叫做一个<strong>二次型</strong>。两个不同东西之间的"像不像"，则写成 <code>xᵀ M y</code>，叫做<strong>双线性形式</strong>。它们是一对双胞胎：二次型是双线性形式"自己对自己"的特例。</p>
+<div class="box box-more1"><p><strong>【多想一层】</strong> 把一组东西写成向量 <code>x</code>，"它的能量"或"它自己和自己有多像"，常常可以写成 <code>xᵀ M x</code> 的样子。这里的 <code>M</code> 是一个对称的矩阵，<code>xᵀ M x</code> 就叫做一个<strong>二次型</strong>。两个不同东西之间的"像不像"，则写成 <code>xᵀ M y</code>，叫做<strong>双线性形式</strong>。它们是一对双胞胎：二次型是双线性形式"自己对自己"的特例。</p></div>
 <p>它为什么重要？因为你会发现——<strong>同一个结构，换了名字，反复出现</strong>：</p>
 <table class="nat">
 <tr><th class="l">你熟悉的词</th><th class="l">它其实是什么</th></tr>
@@ -40,7 +40,7 @@
 <p>物理老师会说：弦振动有它的"本征频率"——<strong>一根弦只喜欢按几个固定的方式抖</strong>。一根绷紧的弦，能弹出很多音，但其中只有几个是"稳"的，其余都会很快消失。那几个稳的，就是它的<strong>谱</strong>。</p>
 <p>宇宙里所有的"东西"，几乎都有一份自己的谱：</p>
 <ul><li>一口钟有自己的音；一面鼓有自己的音；一座桥有自己的共振频率（所以战士过桥要便步走）。</li><li>一个分子有自己的光谱；一个原子有自己的能级。</li><li>一群人也有自己的"谱"：谁最先被一条消息打动，谁最后才反应过来。</li></ul>
-<p><strong>【多想一层】</strong> 在数学里，<strong>谱就是这个系统的特征值</strong>。而特征值做的事只有一件：<strong>决定长期行为。</strong> 短期的细节会互相抵消，长期的趋势只由谱决定。</p>
+<div class="box box-more1"><p><strong>【多想一层】</strong> 在数学里，<strong>谱就是这个系统的特征值</strong>。而特征值做的事只有一件：<strong>决定长期行为。</strong> 短期的细节会互相抵消，长期的趋势只由谱决定。</p></div>
 <ul><li>哪些模式会<strong>长大</strong>（增长）？</li><li>哪些模式会<strong>消失</strong>（衰减）？</li><li>哪个模式长得<strong>最快</strong>？</li></ul>
 <p>这些问题，全都由谱回答。</p>
 <p>这就是为什么《区分的语法》把"谱"放在中心位置：<strong>如果你想用一套语言描述"一个东西是怎么被区分开的"，那么它区分结构的谱，就是它的性格。</strong></p>
@@ -58,7 +58,7 @@
 <p><strong>可能二：先整体升温，然后各处同时燃烧。</strong> 先全局，后局部。</p>
 <p>在真实的森林里，这取决于很多东西。但数学家发现：<strong>在一大类"对称"的系统里，第一种情况一定先发生——局部一定先于全局。</strong></p>
 <p>《区分的语法》把它写成了一条能证明、能算、能复现的定理。它的核心只有两个公式：</p>
-<div class="box box-more1"><p><strong>【多想一层】定理 A（图上两阶段相变）</strong> 设区分强度 <code>D</code> 按线性方程 <code>Ḋ = (−αI + βL) D</code> 演化（<code>L</code> 是图的拉普拉斯，<code>α</code> 是衰减，<code>β</code> 是"关系强度"）。设图的拉普拉斯谱为 <code>0 = λ₁ < λ₂ ≤ … ≤ λₙ</code>。则有两个临界值：</p>
+<div class="box box-more1"><div class="box box-more1"><p><strong>【多想一层】定理 A（图上两阶段相变）</strong> 设区分强度 <code>D</code> 按线性方程 <code>Ḋ = (−αI + βL) D</code> 演化（<code>L</code> 是图的拉普拉斯，<code>α</code> 是衰减，<code>β</code> 是"关系强度"）。设图的拉普拉斯谱为 <code>0 = λ₁ < λ₂ ≤ … ≤ λₙ</code>。则有两个临界值：</p></div>
 <p><strong>β₁ = α / λₙ</strong>（最高频、最<strong>局部</strong>的模式，先"解锁"） <strong>β₂ = α / λ₂</strong>（Fiedler、最<strong>全局</strong>的模式，后"解锁"）</p>
 <p>当 β 很小，所有模式都衰减（火熄了）； 当 β 处在两者之间，<strong>只有局部模式在增长</strong>——细碎的火苗先冒出来； 当 β 超过 β₂，<strong>全局模式才开始增长</strong>——大火连成一片。 〔定理，等级 A／甲；证明只用实对称矩阵的谱定理和线性方程，是标准数学〕</p></div>
 <p>举两个具体数字（取 α = 1）：</p>
@@ -76,11 +76,11 @@
 <p>在<strong>有限</strong>的东西上（有限张图、有限个数据点），上面那套办法非常干净：对象能精确列举，运算能精确相加，"两个图的谱加起来等于合起来那部分的谱"这样的漂亮规律都成立。<strong>有限，是可组合的天堂。</strong></p>
 <p>但当你把镜头拉远、把点变得无穷多、让图变成一条光滑的曲线或一个曲面（也就是"连续"的情况），麻烦出现了。</p>
 <p>数学家发现，在连续的世界里，有一个量叫<strong>曲率</strong>，记作 <code>κ = R/6</code>；还有一个著名的定理叫 <strong>Gauss–Bonnet</strong>。当你试图把"离散时的那套账"平移到"连续时的这套账"上时，会发现两边的账<strong>差一个因子 1/3</strong>——而且这个 1/3 <strong>无法用代数办法消掉</strong>。</p>
-<div class="box box-expert"><p><strong>【给专家的注】</strong> 严格地说：在图上有恒等式 <code>κ_info(G) = Var(λ)/2</code>（热核熵的二阶变分等于拉普拉斯谱方差的一半，误差 <10⁻⁶）。但 <code>κ_info</code> 与连续几何曲率 <code>R/6</code> 是<strong>类型不同的两个量</strong>，前者<strong>不是</strong>后者的离散化；从离散到连续，"传递性"上留下一道缺口，无法代数消去。作者已把早年的说法"分离曲率"正式<strong>撤销归并</strong>（附录 E 的 R1—R4）。〔恒等式 A／甲；缺口 B／乙〕</p></div>
-<p><strong>【再想一层】</strong> 这条 1/3 缺口，是"不可能三角"的<strong>第一张账单</strong>。用大白话说：</p>
+<div class="box box-expert"><div class="box box-expert"><p><strong>【给专家的注】</strong> 严格地说：在图上有恒等式 <code>κ_info(G) = Var(λ)/2</code>（热核熵的二阶变分等于拉普拉斯谱方差的一半，误差 <10⁻⁶）。但 <code>κ_info</code> 与连续几何曲率 <code>R/6</code> 是<strong>类型不同的两个量</strong>，前者<strong>不是</strong>后者的离散化；从离散到连续，"传递性"上留下一道缺口，无法代数消去。作者已把早年的说法"分离曲率"正式<strong>撤销归并</strong>（附录 E 的 R1—R4）。〔恒等式 A／甲；缺口 B／乙〕</p></div></div>
+<div class="box box-more2"><p><strong>【再想一层】</strong> 这条 1/3 缺口，是"不可能三角"的<strong>第一张账单</strong>。用大白话说：</p></div>
 <div class="box"><p><strong>你可以在有限的、离散的世界里把事情做得完备（C）又可组合（A），但一旦你要把它无损地传递到无限、连续的世界（T），你会撞上一个消不掉的缺口——那个缺口就是 1/3。</strong> <strong>能拿它做什么</strong>：当你听到有人宣称"这个模型在小数据上很好，在大数据/连续极限下也一定好"时，先问一句：那道缝补上了吗？ <strong>不能拿它做什么</strong>：它<strong>不是</strong>什么宇宙常数，也不是什么神秘启示。它更可能是标准数学在这个特定构造下的产物。</p></div>
 <h3 id="sec1-6">1.6　一句话带走</h3>
 <div class="box"><p><strong>认识世界的第一步，是划一道线；而每一道线都有成本。你能算清成本的多少，就能知道自己站得有多稳。</strong></p></div>
-<p><strong>【动手试试】把"像不像"变成一个数</strong> 1. 找五个同学（或五个水果），用两个特征给每个打分，比如"大小 1–10、甜度 1–10"。 2. 把它们画在一张纸上（横轴大小，纵轴甜度）。 3. 挑一个当"基准"，数一数谁离它最近、谁离它最远。 4. 你会亲眼看到：<strong>"像不像"是可以量的</strong>——最近的那个，就是你应该先归为一类的。 （这就是二次型在纸上跑起来的样子。）</p>
-<p><strong>【给专家的注 · 这一部的边界】</strong></p>
+<div class="box box-do"><p><strong>【动手试试】把"像不像"变成一个数</strong> 1. 找五个同学（或五个水果），用两个特征给每个打分，比如"大小 1–10、甜度 1–10"。 2. 把它们画在一张纸上（横轴大小，纵轴甜度）。 3. 挑一个当"基准"，数一数谁离它最近、谁离它最远。 4. 你会亲眼看到：<strong>"像不像"是可以量的</strong>——最近的那个，就是你应该先归为一类的。 （这就是二次型在纸上跑起来的样子。）</p></div>
+<div class="box box-expert"><p><strong>【给专家的注 · 这一部的边界】</strong></p></div>
 <ul><li>这一部里，<strong>只有第 1.4 节（定理 A/B1/B2）和第 1.5 节的 <code>κ_info = Var(λ)/2</code> 是完全严格的</strong>；其余关于"区分即语言"的部分，是<strong>语言规范</strong>，不是定理。</li><li>这套语言是否值得被采用，作者给了三条验收标准：<strong>采纳</strong>（除作者外是否有人用它）、<strong>压缩</strong>（是否让记号更短更清楚）、<strong>迁移</strong>（是否让跨领域命题更容易被检验）。截至目前，第一条<strong>未兑现</strong>，后两条<strong>部分兑现</strong>。请把这一部当成"一门有用的新方言"，而不是"一个新理论"。</li></ul>
