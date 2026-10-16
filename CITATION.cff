@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this book or registry, please cite it as below."
+title: "只能选两样：从来不及、会忘记到说不清——五个核心，看懂复杂世界的取舍"
+type: book
+authors:
+  - family-names: "李"
+    given-names: "毅芃"
+    orcid: ""
+date-released: "2026-10-16"
+license: CC-BY-4.0
+url: "https://github.com/lyp0746/knowledge-tradeoffs"
+repository-code: "https://github.com/lyp0746/knowledge-tradeoffs"
+abstract: >-
+  一本把同一作者五本学术专著（《区分的语法》《遗忘的边界》《错位的时间》）
+  的核心，写成人人可读的通俗读本；同时作为系列的外部登记库，
+  收录最小可验证单元、跨域盲测登记与合并术语表。
+keywords:
+  - 不可能三角
+  - 时间错配
+  - 遗忘
+  - 区分
+  - 置信度
+  - 复杂系统
+  - 科普

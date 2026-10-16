@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 480" width="940" height="480" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="940" height="480" fill="#ffffff"/>
+<text x="470" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">现代社会不是一个钟，而是许多个转速不同的钟</text>
+<text x="470" y="62" text-anchor="middle" font-size="14" fill="#666666">横轴为“做成一件事”所需时间的量级（对数）</text>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#666666"/></marker><marker id="ahg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#b8862f"/></marker></defs>
+<text x="210" y="130" text-anchor="end" font-size="17" fill="#1a1a1a" font-weight="normal">金融市场</text>
+<rect x="230" y="100" width="124.0" height="46" rx="6" fill="#ef6c00" stroke="#ef6c00" stroke-width="1.4"/>
+<rect x="230" y="100" width="124" height="46" rx="6" fill="#ef6c00" opacity="0.18"/>
+<text x="368.0" y="130" text-anchor="start" font-size="13" fill="#666666" font-weight="normal">秒—分</text>
+<text x="210" y="198" text-anchor="end" font-size="17" fill="#1a1a1a" font-weight="normal">信息传播</text>
+<rect x="230" y="168" width="198.4" height="46" rx="6" fill="#ef6c00" stroke="#ef6c00" stroke-width="1.4"/>
+<rect x="230" y="168" width="198" height="46" rx="6" fill="#ef6c00" opacity="0.18"/>
+<text x="442.4" y="198" text-anchor="start" font-size="13" fill="#666666" font-weight="normal">分—时</text>
+<text x="210" y="266" text-anchor="end" font-size="17" fill="#1a1a1a" font-weight="normal">政治决策</text>
+<rect x="230" y="236" width="322.40000000000003" height="46" rx="6" fill="#2e7d32" stroke="#2e7d32" stroke-width="1.4"/>
+<rect x="230" y="236" width="322" height="46" rx="6" fill="#2e7d32" opacity="0.18"/>
+<text x="566.4000000000001" y="266" text-anchor="start" font-size="13" fill="#666666" font-weight="normal">周—月</text>
+<text x="210" y="334" text-anchor="end" font-size="17" fill="#1a1a1a" font-weight="normal">基础设施</text>
+<rect x="230" y="304" width="446.4" height="46" rx="6" fill="#2f6db0" stroke="#2f6db0" stroke-width="1.4"/>
+<rect x="230" y="304" width="446" height="46" rx="6" fill="#2f6db0" opacity="0.18"/>
+<text x="690.4" y="334" text-anchor="start" font-size="13" fill="#666666" font-weight="normal">年—十年</text>
+<text x="210" y="402" text-anchor="end" font-size="17" fill="#1a1a1a" font-weight="normal">社会信任</text>
+<rect x="230" y="372" width="483.6" height="46" rx="6" fill="#2f6db0" stroke="#2f6db0" stroke-width="1.4"/>
+<rect x="230" y="372" width="484" height="46" rx="6" fill="#2f6db0" opacity="0.18"/>
+<text x="727.6" y="402" text-anchor="start" font-size="13" fill="#666666" font-weight="normal">年</text>
+<text x="210" y="470" text-anchor="end" font-size="17" fill="#1a1a1a" font-weight="normal">生态环境</text>
+<rect x="230" y="440" width="595.1999999999999" height="46" rx="6" fill="#8e5a9c" stroke="#8e5a9c" stroke-width="1.4"/>
+<rect x="230" y="440" width="595" height="46" rx="6" fill="#8e5a9c" opacity="0.18"/>
+<text x="839.1999999999999" y="470" text-anchor="start" font-size="13" fill="#666666" font-weight="normal">十年—百年</text>
+<text x="200" y="92" text-anchor="start" font-size="14" fill="#ef6c00" font-weight="bold">制造冲击</text>
+<text x="860" y="92" text-anchor="start" font-size="14" fill="#8e5a9c" font-weight="bold">必须回应</text>
+<text x="470.0" y="454" text-anchor="middle" font-size="14" fill="#666666" font-weight="normal">快的一方可几小时定价，慢的一方要几年重建信任——错位是结构性的</text>
+</svg>

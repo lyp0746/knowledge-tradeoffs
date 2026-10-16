@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 520" width="940" height="520" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="940" height="520" fill="#ffffff"/>
+<text x="470" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">知识的一生：一部不断重选三角的历史</text>
+<text x="470" y="62" text-anchor="middle" font-size="14" fill="#666666">成熟不是终点，能周期性地回到起点才是</text>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#666666"/></marker><marker id="ahg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#b8862f"/></marker></defs>
+<circle cx="470" cy="150" r="58" fill="#2f6db0" opacity="0.16" stroke="#2f6db0" stroke-width="1.6"/>
+<text x="470.0" y="144.0" text-anchor="middle" font-size="15" fill="#2f6db0" font-weight="bold">范式建立</text>
+<text x="470.0" y="166.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-weight="normal">C + T</text>
+<circle cx="620" cy="300" r="58" fill="#2e7d32" opacity="0.16" stroke="#2e7d32" stroke-width="1.6"/>
+<text x="620.0" y="294.0" text-anchor="middle" font-size="15" fill="#2e7d32" font-weight="bold">教学化</text>
+<text x="620.0" y="316.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-weight="normal">A + T</text>
+<circle cx="470" cy="450" r="58" fill="#ef6c00" opacity="0.16" stroke="#ef6c00" stroke-width="1.6"/>
+<text x="470.0" y="444.0" text-anchor="middle" font-size="15" fill="#ef6c00" font-weight="bold">工程化</text>
+<text x="470.0" y="466.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-weight="normal">C + A</text>
+<circle cx="320" cy="300" r="58" fill="#c62828" opacity="0.16" stroke="#c62828" stroke-width="1.6"/>
+<text x="320.0" y="294.0" text-anchor="middle" font-size="15" fill="#c62828" font-weight="bold">危机与革命</text>
+<text x="320.0" y="316.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-weight="normal">重回 C + T</text>
+<line x1="531" y1="163" x2="607" y2="239" stroke="#666666" stroke-width="2.0" marker-end="url(#ah)"/>
+<line x1="607" y1="361" x2="531" y2="437" stroke="#666666" stroke-width="2.0" marker-end="url(#ah)"/>
+<line x1="409" y1="437" x2="333" y2="361" stroke="#666666" stroke-width="2.0" marker-end="url(#ah)"/>
+<line x1="333" y1="239" x2="409" y2="163" stroke="#666666" stroke-width="2.0" marker-end="url(#ah)"/>
+<text x="470" y="304" text-anchor="middle" font-size="16" fill="#b8862f" font-weight="bold">不断重选</text>
+<text x="470" y="328" text-anchor="middle" font-size="16" fill="#b8862f" font-weight="bold">三角</text>
+<rect x="60" y="452" width="820" height="46" rx="8" fill="#f7f9fc" stroke="#c9d2dd" stroke-width="1.4"/>
+<text x="470" y="480" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">每一阶段都换来力量，也让出一个顶点；最危险的时刻，是“工程化得最好、却忘了自己丢了什么”的时候</text>
+</svg>

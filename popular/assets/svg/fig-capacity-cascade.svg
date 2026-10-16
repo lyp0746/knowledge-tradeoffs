@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" width="920" height="520" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="920" height="520" fill="#ffffff"/>
+<text x="460" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">容量级联：从毫秒到一生，约 10⁹ 倍</text>
+<text x="460" y="62" text-anchor="middle" font-size="14" fill="#666666">容量决定“必须忘”，时间尺度决定“忘在哪一层”</text>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#666666"/></marker><marker id="ahg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#b8862f"/></marker></defs>
+<rect x="120" y="100" width="640" height="70" rx="8" fill="#e3f0fb" stroke="#2f6db0" stroke-width="1.4"/>
+<text x="260" y="144" text-anchor="middle" font-size="20" fill="#2f6db0" font-weight="bold">工作记忆</text>
+<text x="550" y="144" text-anchor="middle" font-size="16" fill="#1a1a1a" font-weight="normal">秒</text>
+<line x1="440" y1="170" x2="440" y2="188" stroke="#666666" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="120" y="188" width="640" height="70" rx="8" fill="#e7f4ea" stroke="#2e7d32" stroke-width="1.4"/>
+<text x="260" y="232" text-anchor="middle" font-size="20" fill="#2e7d32" font-weight="bold">短期记忆</text>
+<text x="550" y="232" text-anchor="middle" font-size="16" fill="#1a1a1a" font-weight="normal">分钟—小时</text>
+<line x1="440" y1="258" x2="440" y2="276" stroke="#666666" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="120" y="276" width="640" height="70" rx="8" fill="#fff5e6" stroke="#ef6c00" stroke-width="1.4"/>
+<text x="260" y="320" text-anchor="middle" font-size="20" fill="#ef6c00" font-weight="bold">长期巩固</text>
+<text x="550" y="320" text-anchor="middle" font-size="16" fill="#1a1a1a" font-weight="normal">小时—年</text>
+<line x1="440" y1="346" x2="440" y2="364" stroke="#666666" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="120" y="364" width="640" height="70" rx="8" fill="#f6ecf7" stroke="#8e5a9c" stroke-width="1.4"/>
+<text x="260" y="408" text-anchor="middle" font-size="20" fill="#8e5a9c" font-weight="bold">终身整合</text>
+<text x="550" y="408" text-anchor="middle" font-size="16" fill="#1a1a1a" font-weight="normal">年—一生</text>
+<text x="800" y="130" text-anchor="start" font-size="14" fill="#666666" font-weight="normal">快的层→选</text>
+<line x1="770" y1="145" x2="770" y2="310" stroke="#666666" stroke-width="2.0" marker-end="url(#ah)"/>
+<text x="800" y="460" text-anchor="start" font-size="14" fill="#666666" font-weight="normal">慢的层→固</text>
+<text x="880" y="140" font-size="13" fill="#c62828" transform="rotate(90 880 140)">压缩 · 干扰 · 遗忘</text>
+<text x="460.0" y="490" text-anchor="middle" font-size="14" fill="#666666" font-weight="normal">容量 K 有限：多层分工不是奢侈，而是“既要适应又要稳定”的数学解</text>
+</svg>

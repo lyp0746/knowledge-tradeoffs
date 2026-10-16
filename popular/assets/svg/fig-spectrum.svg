@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="880" height="460" fill="#ffffff"/>
+<text x="440" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">系统的“性格”藏在谱里：谱决定长期行为</text>
+<text x="440" y="62" text-anchor="middle" font-size="14" fill="#666666">短期的细节会互相抵消，长期的趋势只由特征值决定</text>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#666666"/></marker><marker id="ahg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#b8862f"/></marker></defs>
+<circle cx="90" cy="210" r="9" fill="#2f6db0"/>
+<circle cx="150" cy="180" r="9" fill="#2f6db0"/>
+<circle cx="150" cy="250" r="9" fill="#2f6db0"/>
+<circle cx="110" cy="300" r="9" fill="#2f6db0"/>
+<circle cx="300" cy="210" r="9" fill="#2e7d32"/>
+<circle cx="340" cy="260" r="9" fill="#2e7d32"/>
+<circle cx="290" cy="310" r="9" fill="#2e7d32"/>
+<circle cx="330" cy="180" r="9" fill="#2e7d32"/>
+<line x1="90" y1="210" x2="150" y2="250" stroke="#2f6db0" stroke-width="1" opacity="0.5"/>
+<line x1="150" y1="180" x2="110" y2="300" stroke="#2f6db0" stroke-width="1" opacity="0.5"/>
+<line x1="300" y1="210" x2="290" y2="310" stroke="#2e7d32" stroke-width="1" opacity="0.5"/>
+<line x1="340" y1="260" x2="330" y2="180" stroke="#2e7d32" stroke-width="1" opacity="0.5"/>
+<line x1="180" y1="240" x2="270" y2="240" stroke="#c62828" stroke-width="1.6" stroke-dasharray="5,4"/>
+<text x="210" y="370" text-anchor="middle" font-size="14" fill="#666666" font-weight="normal">两个小圈子：会不会裂开？</text>
+<text x="210" y="396" text-anchor="middle" font-size="13" fill="#c62828" font-weight="normal">看 λ₂（Fiedler 值）——越小越容易裂</text>
+<line x1="470" y1="360" x2="830" y2="360" stroke="#333" stroke-width="1.6"/>
+<rect x="500" y="360" width="22" height="0" fill="#2f6db0" opacity="0.8"/>
+<rect x="540" y="336" width="22" height="24" fill="#c62828" opacity="0.8"/>
+<rect x="580" y="316" width="22" height="44" fill="#2f6db0" opacity="0.8"/>
+<rect x="620" y="292" width="22" height="68" fill="#2f6db0" opacity="0.8"/>
+<rect x="660" y="264" width="22" height="96" fill="#2f6db0" opacity="0.8"/>
+<rect x="700" y="232" width="22" height="128" fill="#2f6db0" opacity="0.8"/>
+<rect x="740" y="176" width="22" height="184" fill="#2f6db0" opacity="0.8"/>
+<rect x="780" y="120" width="22" height="240" fill="#2f6db0" opacity="0.8"/>
+<text x="650.0" y="394" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">拉普拉斯谱 λ₁ ≤ λ₂ ≤ … ≤ λₙ</text>
+<text x="540" y="114" text-anchor="middle" font-size="14" fill="#c62828" font-weight="bold">λ₂</text>
+</svg>

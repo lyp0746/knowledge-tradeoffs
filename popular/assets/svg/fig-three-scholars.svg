@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" width="840" height="520" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="840" height="520" fill="#ffffff"/>
+<text x="420" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">三种学者，三个顶点</text>
+<text x="420" y="62" text-anchor="middle" font-size="14" fill="#666666">谁也说服不了谁，因为各自让出了不同的顶点</text>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#666666"/></marker><marker id="ahg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#b8862f"/></marker></defs>
+<polygon points="420,140 264,410 576,410" fill="#f7f9fc" stroke="#9aa4b2" stroke-width="2"/>
+<circle cx="420" cy="140" r="10" fill="#2f6db0"/>
+<text x="420.0" y="110.0" text-anchor="middle" font-size="18" fill="#2f6db0" font-weight="bold">清晰派</text>
+<text x="420.0" y="134.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-weight="normal">C + T（让出 A）</text>
+<circle cx="264" cy="410" r="10" fill="#2e7d32"/>
+<text x="264.11542731880104" y="456.0" text-anchor="middle" font-size="18" fill="#2e7d32" font-weight="bold">平衡派</text>
+<text x="264.11542731880104" y="480.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-weight="normal">A + T（让出 C）</text>
+<circle cx="576" cy="410" r="10" fill="#ef6c00"/>
+<text x="575.884572681199" y="456.0" text-anchor="middle" font-size="18" fill="#ef6c00" font-weight="bold">细节派</text>
+<text x="575.884572681199" y="480.0" text-anchor="middle" font-size="14" fill="#1a1a1a" font-weight="normal">C + A（让出 T）</text>
+<text x="420" y="334" text-anchor="middle" font-size="20" fill="#b8862f" font-weight="bold">同一场争论</text>
+<text x="420" y="362" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">分歧多在“分配位置”，不在事实</text>
+</svg>

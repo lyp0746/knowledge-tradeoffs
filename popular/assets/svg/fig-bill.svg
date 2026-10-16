@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 440" width="980" height="440" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="980" height="440" fill="#ffffff"/>
+<text x="490" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">五张账单：看得见的世界背后，都有一张看不见的账单</text>
+<text x="490" y="62" text-anchor="middle" font-size="14" fill="#666666">每个核心＝一笔代价；看懂账单，就看见了自己站在哪里</text>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#666666"/></marker><marker id="ahg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#b8862f"/></marker></defs>
+<rect x="32.0" y="100" width="172" height="240" rx="8" fill="#fbfcfe" stroke="#2f6db0" stroke-width="1.4"/>
+<rect x="32.0" y="100" width="172" height="56" rx="8" fill="#2f6db0" opacity="0.16"/>
+<text x="118.0" y="138" text-anchor="middle" font-size="24" fill="#2f6db0" font-weight="bold">看见</text>
+<text x="118.0" y="196" text-anchor="middle" font-size="17" fill="#1a1a1a" font-weight="bold">划线有成本</text>
+<text x="118.0" y="244" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">区分＋二次型</text>
+<text x="118.0" y="312" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">账单 1</text>
+<rect x="218.0" y="100" width="172" height="240" rx="8" fill="#fbfcfe" stroke="#2e7d32" stroke-width="1.4"/>
+<rect x="218.0" y="100" width="172" height="56" rx="8" fill="#2e7d32" opacity="0.16"/>
+<text x="304.0" y="138" text-anchor="middle" font-size="24" fill="#2e7d32" font-weight="bold">记住</text>
+<text x="304.0" y="196" text-anchor="middle" font-size="17" fill="#1a1a1a" font-weight="bold">遗忘是前提</text>
+<text x="304.0" y="244" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">容量＋压缩</text>
+<text x="304.0" y="312" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">账单 2</text>
+<rect x="404.0" y="100" width="172" height="240" rx="8" fill="#fbfcfe" stroke="#ef6c00" stroke-width="1.4"/>
+<rect x="404.0" y="100" width="172" height="56" rx="8" fill="#ef6c00" opacity="0.16"/>
+<text x="490.0" y="138" text-anchor="middle" font-size="24" fill="#ef6c00" font-weight="bold">跟上</text>
+<text x="490.0" y="196" text-anchor="middle" font-size="17" fill="#1a1a1a" font-weight="bold">来不及是结构</text>
+<text x="490.0" y="244" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">多尺度＋τ</text>
+<text x="490.0" y="312" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">账单 3</text>
+<rect x="590.0" y="100" width="172" height="240" rx="8" fill="#fbfcfe" stroke="#b8862f" stroke-width="1.4"/>
+<rect x="590.0" y="100" width="172" height="56" rx="8" fill="#b8862f" opacity="0.16"/>
+<text x="676.0" y="138" text-anchor="middle" font-size="24" fill="#b8862f" font-weight="bold">选择</text>
+<text x="676.0" y="196" text-anchor="middle" font-size="17" fill="#1a1a1a" font-weight="bold">至多取二</text>
+<text x="676.0" y="244" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">C-A-T 三角</text>
+<text x="676.0" y="312" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">账单 4</text>
+<rect x="776.0" y="100" width="172" height="240" rx="8" fill="#fbfcfe" stroke="#8e5a9c" stroke-width="1.4"/>
+<rect x="776.0" y="100" width="172" height="56" rx="8" fill="#8e5a9c" opacity="0.16"/>
+<text x="862.0" y="138" text-anchor="middle" font-size="24" fill="#8e5a9c" font-weight="bold">讲述</text>
+<text x="862.0" y="196" text-anchor="middle" font-size="17" fill="#1a1a1a" font-weight="bold">争吵在抢位置</text>
+<text x="862.0" y="244" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">置信度分配</text>
+<text x="862.0" y="312" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">账单 5</text>
+</svg>

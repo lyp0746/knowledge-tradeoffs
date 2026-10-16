@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" width="1000" height="1414">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0e1117"/><stop offset="0.55" stop-color="#151a23"/>
+<stop offset="1" stop-color="#0b0e14"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="1414" fill="url(#bg)"/>
+<rect x="0" y="0" width="1000" height="8" fill="#b8862f" opacity="0.85"/>
+<polygon points="500,610 318,925 682,925" fill="none" stroke="#7d8a99" stroke-width="1.6" opacity="0.55"/>
+<circle cx="500" cy="610" r="34" fill="none" stroke="#c94f4f" stroke-width="1.6" stroke-dasharray="6,5" opacity="0.75"/>
+<circle cx="318" cy="925" r="12" fill="#b8862f" opacity="0.85"/>
+<circle cx="682" cy="925" r="12" fill="#b8862f" opacity="0.85"/>
+<circle cx="500" cy="610" r="5" fill="#c94f4f" opacity="0.8"/>
+<text x="500" y="558" text-anchor="middle" class="vl">看得准 C</text>
+<text x="312" y="983" text-anchor="middle" class="vl">拼得上 A</text>
+<text x="688" y="983" text-anchor="middle" class="vl">传得下去 T</text>
+<text x="500" y="828" text-anchor="middle" class="mid">至多取二</text>
+<style>
+text{font-family:'Microsoft YaHei','SimHei',Arial,sans-serif;}
+.ttl{font-size:112px;font-weight:700;letter-spacing:14px;fill:#e8e6df;}
+.sub{font-size:28px;fill:#9aa0a6;letter-spacing:2px;}
+.eng{font-size:20px;fill:#9aa0a6;letter-spacing:1px;}
+.au{font-size:30px;fill:#e8e6df;letter-spacing:2px;}
+.rule{stroke:#9aa0a6;stroke-width:1;opacity:0.6;}
+.vl{font-size:24px;fill:#cfd6de;letter-spacing:1px;}
+.mid{font-size:34px;fill:#b8862f;letter-spacing:8px;font-weight:700;}
+.sm{font-size:20px;fill:#9aa0a6;letter-spacing:2px;}
+</style>
+<text x="80" y="176" class="eng">PICK TWO</text>
+<text x="80" y="300" class="ttl">只能选两样</text>
+<line x1="84" y1="344" x2="700" y2="344" class="rule"/>
+<text x="84" y="396" class="sub">从来不及、会忘记到说不清：</text>
+<text x="84" y="440" class="sub">五个核心，看懂复杂世界的取舍</text>
+<text x="84" y="500" class="eng">看见 · 记住 · 跟上 · 选择 · 讲述</text>
+<text x="80" y="1180" class="au">李毅芃　著</text>
+<text x="80" y="1232" class="eng">Five Ideas for Understanding a Complicated World</text>
+<text x="80" y="1274" class="eng">通俗读本 · 2026</text>
+</svg>

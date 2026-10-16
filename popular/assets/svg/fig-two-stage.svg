@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="900" height="480" fill="#ffffff"/>
+<text x="450" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">局部先醒，还是全局先醒？一场可复算的两阶段相变</text>
+<text x="450" y="62" text-anchor="middle" font-size="14" fill="#666666">对称图：局部（高频）模式一定先于全局（Fiedler）模式增长</text>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#666666"/></marker><marker id="ahg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#b8862f"/></marker></defs>
+<line x1="110" y1="300" x2="810" y2="300" stroke="#333" stroke-width="2"/>
+<text x="460" y="344" text-anchor="middle" font-size="14" fill="#1a1a1a">耦合强度 β（关系有多强）→</text>
+<rect x="110" y="70" width="238" height="230" fill="#eceff1"/>
+<rect x="348" y="70" width="238" height="230" fill="#e3f0fb"/>
+<rect x="586" y="70" width="224" height="230" fill="#fff5e6"/>
+<line x1="348" y1="70" x2="348" y2="300" stroke="#2f6db0" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="586" y1="70" x2="586" y2="300" stroke="#ef6c00" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="229.0" y="190" text-anchor="middle" font-size="16" fill="#666666" font-weight="bold">全部衰减</text>
+<text x="467.0" y="170" text-anchor="middle" font-size="16" fill="#2f6db0" font-weight="bold">只有局部模式增长</text>
+<text x="467.0" y="200" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">细碎的火苗</text>
+<text x="698.0" y="190" text-anchor="middle" font-size="16" fill="#ef6c00" font-weight="bold">全局模式随后增长</text>
+<text x="698.0" y="220" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">大火连成一片</text>
+<text x="348.0" y="324" text-anchor="middle" font-size="13" fill="#2f6db0" font-weight="bold">β₁ = α/λₙ</text>
+<text x="586.0" y="324" text-anchor="middle" font-size="13" fill="#ef6c00" font-weight="bold">β₂ = α/λ₂</text>
+<rect x="110" y="380" width="320" height="76" rx="8" fill="#e3f0fb" stroke="#2f6db0" stroke-width="1.4"/>
+<text x="270" y="408" text-anchor="middle" font-size="14" fill="#2f6db0" font-weight="normal">Petersen 图：(0.200, 0.500)</text>
+<text x="270" y="434" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">环 C₁₀：(0.250, 2.618) → 中间隔了十倍！</text>
+<rect x="470" y="380" width="340" height="76" rx="8" fill="#eef7f0" stroke="#2e7d32" stroke-width="1.4"/>
+<text x="640" y="408" text-anchor="middle" font-size="14" fill="#2e7d32" font-weight="normal">任意正对称边权下，顺序不可反转</text>
+<text x="640" y="434" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">有向图（不对称）可反转——一条真实反例</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="880" height="500" fill="#ffffff"/>
+<text x="440" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">时间错配越大，可控性越低、判断越模糊</text>
+<text x="440" y="62" text-anchor="middle" font-size="14" fill="#666666">τ = 需要的时间 ÷ 你有的时间；可控性 C = 1/τ</text>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#666666"/></marker><marker id="ahg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#b8862f"/></marker></defs>
+<line x1="110" y1="380" x2="730" y2="380" stroke="#333" stroke-width="2"/>
+<line x1="110" y1="380" x2="110" y2="90" stroke="#333" stroke-width="2"/>
+<text x="420" y="424" text-anchor="middle" font-size="14" fill="#1a1a1a">τ（越大越糟）→</text>
+<text x="40" y="235" text-anchor="middle" font-size="14" fill="#1a1a1a" transform="rotate(-90 40 235)">可控性 C</text>
+<rect x="110" y="90" width="206" height="290" fill="#e8f5e9"/>
+<rect x="316" y="90" width="144" height="290" fill="#fff8e1"/>
+<rect x="461" y="90" width="269" height="290" fill="#ffebee"/>
+<path d="M 110.0 90.0 L 116.2 109.4 L 122.4 127.4 L 128.6 144.3 L 134.8 160.0 L 141.0 174.7 L 147.2 188.4 L 153.4 201.2 L 159.6 213.1 L 165.8 224.3 L 172.0 234.7 L 178.2 244.4 L 184.4 253.4 L 190.6 261.9 L 196.8 269.7 L 203.0 277.1 L 209.2 284.0 L 215.4 290.4 L 221.6 296.4 L 227.8 301.9 L 234.0 307.2 L 240.2 312.0 L 246.4 316.6 L 252.6 320.8 L 258.8 324.7 L 265.0 328.4 L 271.2 331.9 L 277.4 335.1 L 283.6 338.1 L 289.8 340.9 L 296.0 343.5 L 302.2 345.9 L 308.4 348.2 L 314.6 350.3 L 320.8 352.3 L 327.0 354.2 L 333.2 355.9 L 339.4 357.5 L 345.6 359.0 L 351.8 360.4 L 358.0 361.7 L 364.2 362.9 L 370.4 364.1 L 376.6 365.1 L 382.8 366.1 L 389.0 367.0 L 395.2 367.9 L 401.4 368.7 L 407.6 369.5 L 413.8 370.2 L 420.0 370.8 L 426.2 371.4 L 432.4 372.0 L 438.6 372.5 L 444.8 373.0 L 451.0 373.5 L 457.2 373.9 L 463.4 374.3 L 469.6 374.7 L 475.8 375.1 L 482.0 375.4 L 488.2 375.7 L 494.4 376.0 L 500.6 376.3 L 506.8 376.5 L 513.0 376.7 L 519.2 377.0 L 525.4 377.2 L 531.6 377.4 L 537.8 377.5 L 544.0 377.7 L 550.2 377.9 L 556.4 378.0 L 562.6 378.1 L 568.8 378.3 L 575.0 378.4 L 581.2 378.5 L 587.4 378.6 L 593.6 378.7 L 599.8 378.8 L 606.0 378.8 L 612.2 378.9 L 618.4 379.0 L 624.6 379.1 L 630.8 379.1 L 637.0 379.2 L 643.2 379.2 L 649.4 379.3 L 655.6 379.3 L 661.8 379.4 L 668.0 379.4 L 674.2 379.5 L 680.4 379.5 L 686.6 379.5 L 692.8 379.6 L 699.0 379.6 L 705.2 379.6 L 711.4 379.6 L 717.6 379.7 L 723.8 379.7 L 730.0 379.7" fill="none" stroke="#c62828" stroke-width="3.2"/>
+<line x1="110" y1="351" x2="730" y2="351" stroke="#333" stroke-width="1.6" stroke-dasharray="7,5"/>
+<text x="210" y="114" text-anchor="middle" font-size="14" fill="#2e7d32" font-weight="bold">来得及</text>
+<text x="410" y="114" text-anchor="middle" font-size="14" fill="#ef6c00" font-weight="bold">勉强</text>
+<text x="610" y="114" text-anchor="middle" font-size="14" fill="#c62828" font-weight="bold">来不及 → 优雅降级</text>
+<circle cx="254" cy="322" r="6" fill="#c62828"/>
+<text x="254.45380089611055" y="404" text-anchor="middle" font-size="13" fill="#1a1a1a" font-weight="normal">τ≈0.5</text>
+<circle cx="429" cy="372" r="6" fill="#c62828"/>
+<text x="429.10739583239035" y="404" text-anchor="middle" font-size="13" fill="#1a1a1a" font-weight="normal">τ≈3.5</text>
+<circle cx="622" cy="379" r="6" fill="#c62828"/>
+<text x="621.9383926420636" y="404" text-anchor="middle" font-size="13" fill="#1a1a1a" font-weight="normal">τ≈30</text>
+<text x="440.0" y="484" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">τ 越大，置信区间越宽（±0.10 → ±0.60）；τ 只做事后诊断，不做事前预测</text>
+</svg>

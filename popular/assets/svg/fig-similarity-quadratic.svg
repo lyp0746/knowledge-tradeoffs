@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="800" height="500" fill="#ffffff"/>
+<text x="400" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">“像不像”其实是一个数：相似度＝二次型</text>
+<text x="400" y="62" text-anchor="middle" font-size="14" fill="#666666">把每个东西画成一个点；两点之差平方相加，就是距离</text>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#666666"/></marker><marker id="ahg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#b8862f"/></marker></defs>
+<line x1="120" y1="400" x2="680" y2="400" stroke="#333" stroke-width="1.6"/>
+<line x1="120" y1="400" x2="120" y2="100" stroke="#333" stroke-width="1.6"/>
+<text x="400.0" y="436" text-anchor="middle" font-size="14" fill="#1a1a1a" font-weight="normal">大小 →</text>
+<text x="70" y="250" font-size="14" fill="#1a1a1a" transform="rotate(-90 70 250)" text-anchor="middle">甜度 →</text>
+<circle cx="428" cy="214" r="8" fill="#2f6db0"/>
+<text x="444.0" y="206.0" text-anchor="start" font-size="15" fill="#1a1a1a" font-weight="bold">甲</text>
+<circle cx="439" cy="220" r="8" fill="#2e7d32"/>
+<text x="455.2" y="212.0" text-anchor="start" font-size="15" fill="#1a1a1a" font-weight="bold">乙</text>
+<circle cx="355" cy="244" r="8" fill="#2e7d32"/>
+<text x="371.2" y="236.0" text-anchor="start" font-size="15" fill="#1a1a1a" font-weight="bold">丙</text>
+<circle cx="232" cy="310" r="8" fill="#2e7d32"/>
+<text x="248.0" y="302.0" text-anchor="start" font-size="15" fill="#1a1a1a" font-weight="bold">丁</text>
+<line x1="428" y1="214" x2="439" y2="220" stroke="#666666" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="428" y1="214" x2="355" y2="244" stroke="#666666" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="428" y1="214" x2="232" y2="310" stroke="#666666" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="355.2" y="310.0" text-anchor="middle" font-size="14" fill="#666666" font-weight="normal">距离 = (Δ甜度)² + (Δ大小)²</text>
+<rect x="560" y="92" width="200" height="70" rx="8" fill="#eef4fb" stroke="#2f6db0" stroke-width="1.4"/>
+<text x="660" y="120" text-anchor="middle" font-size="20" fill="#2f6db0" font-weight="bold">xᵀ M x</text>
+<text x="660" y="146" text-anchor="middle" font-size="11" fill="#666666" font-weight="normal">方差 / Hessian / 图能量 / 内积 / 度量</text>
+</svg>
