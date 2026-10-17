@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="960" height="520" fill="#ffffff"/>
+<text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">同一张价目表，三个人让出的东西不一样</text>
+<text x="480" y="62" text-anchor="middle" font-size="14" fill="#666666">想要两样，就得让出第三样——争论的一半，是要求别人替自己付账</text>
+<rect x="40" y="100" width="275" height="300" rx="8" fill="#fbfcfe" stroke="#2f6db0" stroke-width="1.4"/>
+<rect x="40" y="100" width="275" height="40" rx="8" fill="#2f6db0" opacity="0.16"/>
+<text x="177.5" y="127" text-anchor="middle" font-size="18" fill="#2f6db0" font-weight="bold">产品经理</text>
+<rect x="60" y="168" width="235" height="56" rx="6" fill="#eef7ee" stroke="#2e7d32" stroke-width="1.4"/>
+<text x="177.5" y="202" text-anchor="middle" font-size="13" fill="#2e7d32" font-weight="normal">要：快上线 + 能拼装</text>
+<rect x="60" y="244" width="235" height="56" rx="6" fill="#fdecea" stroke="#c62828" stroke-width="1.4"/>
+<text x="177.5" y="278" text-anchor="middle" font-size="13" fill="#c62828" font-weight="normal">让出：每个细节都讲清</text>
+<text x="177.5" y="340" text-anchor="middle" font-size="12" fill="#666666" font-weight="normal">他说的话听起来都对</text>
+<text x="177.5" y="364" text-anchor="middle" font-size="12" fill="#666666" font-weight="normal">因为他已经付过账了</text>
+<rect x="345" y="100" width="275" height="300" rx="8" fill="#fbfcfe" stroke="#2e7d32" stroke-width="1.4"/>
+<rect x="345" y="100" width="275" height="40" rx="8" fill="#2e7d32" opacity="0.16"/>
+<text x="482.5" y="127" text-anchor="middle" font-size="18" fill="#2e7d32" font-weight="bold">工程师</text>
+<rect x="365" y="168" width="235" height="56" rx="6" fill="#eef7ee" stroke="#2e7d32" stroke-width="1.4"/>
+<text x="482.5" y="202" text-anchor="middle" font-size="13" fill="#2e7d32" font-weight="normal">要：讲清 + 能验证</text>
+<rect x="365" y="244" width="235" height="56" rx="6" fill="#fdecea" stroke="#c62828" stroke-width="1.4"/>
+<text x="482.5" y="278" text-anchor="middle" font-size="13" fill="#c62828" font-weight="normal">让出：下周就上线</text>
+<text x="482.5" y="340" text-anchor="middle" font-size="12" fill="#666666" font-weight="normal">他说的话听起来都对</text>
+<text x="482.5" y="364" text-anchor="middle" font-size="12" fill="#666666" font-weight="normal">因为他已经付过账了</text>
+<rect x="650" y="100" width="275" height="300" rx="8" fill="#fbfcfe" stroke="#ef6c00" stroke-width="1.4"/>
+<rect x="650" y="100" width="275" height="40" rx="8" fill="#ef6c00" opacity="0.16"/>
+<text x="787.5" y="127" text-anchor="middle" font-size="18" fill="#ef6c00" font-weight="bold">老板</text>
+<rect x="670" y="168" width="235" height="56" rx="6" fill="#eef7ee" stroke="#2e7d32" stroke-width="1.4"/>
+<text x="787.5" y="202" text-anchor="middle" font-size="13" fill="#2e7d32" font-weight="normal">要：快上线 + 传得下去</text>
+<rect x="670" y="244" width="235" height="56" rx="6" fill="#fdecea" stroke="#c62828" stroke-width="1.4"/>
+<text x="787.5" y="278" text-anchor="middle" font-size="13" fill="#c62828" font-weight="normal">让出：对复杂度的耐心</text>
+<text x="787.5" y="340" text-anchor="middle" font-size="12" fill="#666666" font-weight="normal">他说的话听起来都对</text>
+<text x="787.5" y="364" text-anchor="middle" font-size="12" fill="#666666" font-weight="normal">因为他已经付过账了</text>
+<rect x="300" y="424" width="360" height="56" rx="8" fill="#fff8e1" stroke="#b8862f" stroke-width="1.4"/>
+<text x="480" y="458" text-anchor="middle" font-size="14" fill="#b8862f" font-weight="bold">三角形的三个顶点：C 看得准 · A 拼得上 · T 传得下去</text>
+</svg>

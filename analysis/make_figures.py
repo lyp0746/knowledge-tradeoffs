@@ -61,9 +61,9 @@ def save(name, parts):
 
 # ----------------------------------------------------------------- 图 1 五核关系
 def fig_five_core():
-    W, H = 1000, 640
-    s = head(W, H, "五个核心：同一笔账单的五个项目",
-             "看见 · 记住 · 跟上 → 选择（至多取二）→ 讲述 → 元学习")
+    W, H = 1000, 720
+    s = head(W, H, "六个核心：同一笔账单的六个项目",
+             "看见 · 记住 · 跟上 → 选择（至多取二）→ 讲述 → 元学习；临界是前五者共同作用时的门槛")
     s.append(DEFS)
     # 三个输入
     inputs = [("看见", "对象", "区分 / 二次型", 90, BLU),
@@ -87,6 +87,8 @@ def fig_five_core():
     s.append(arrow(500, 532, 500, 580, GRY))
     s.append(box(150, 584, 700, 46, "#eef2f6", BLU))
     s.append(txt(500, 614, "元学习：观察 → 抽象 → 建模 → 应用 → 反馈 → 更新", 15, BLU))
+    s.append(f'<rect x="90" y="654" width="820" height="48" rx="10" fill="#fdecea" stroke="{RED}" stroke-width="2" stroke-dasharray="8,5"/>')
+    s.append(txt(500, 684, "临界（第六个核心）：前五个一起作用时，那道“门槛”在哪里", 16, RED, weight="bold"))
     save("fig-five-core-map", s)
 
 
@@ -414,16 +416,17 @@ def fig_knowledge_life():
 
 # ----------------------------------------------------------------- 图 12 五张账单
 def fig_bill():
-    W, H = 980, 440
-    s = head(W, H, "五张账单：看得见的世界背后，都有一张看不见的账单", "每个核心＝一笔代价；看懂账单，就看见了自己站在哪里")
+    W, H = 1040, 440
+    s = head(W, H, "六张账单：看得见的世界背后，都有一张看不见的账单", "每个核心＝一笔代价；看懂账单，就看见了自己站在哪里")
     s.append(DEFS)
     cards = [("看见", "划线有成本", "区分＋二次型", BLU),
              ("记住", "遗忘是前提", "容量＋压缩", GRN),
              ("跟上", "来不及是结构", "多尺度＋τ", ORG),
              ("选择", "至多取二", "C-A-T 三角", GLD),
-             ("讲述", "争吵在抢位置", "置信度分配", PNK)]
-    cw, ch, gap = 172, 240, 14
-    x0 = (W - (cw * 5 + gap * 4)) / 2
+             ("讲述", "争吵在抢位置", "置信度分配", PNK),
+             ("临界", "量变到质变", "序参量＋慢化", RED)]
+    cw, ch, gap = 158, 240, 12
+    x0 = (W - (cw * 6 + gap * 5)) / 2
     for i, (name, line, sub, col) in enumerate(cards):
         x = x0 + i * (cw + gap)
         s.append(box(x, 100, cw, ch, "#fbfcfe", col))
@@ -435,11 +438,213 @@ def fig_bill():
     save("fig-bill", s)
 
 
+# ------------------------------------------------- 图 13 同一群人，三种划线
+PTS = [(38, 62), (88, 44), (152, 58), (44, 112), (104, 118), (158, 104)]
+
+
+def _dotline(ox, oy, line, col):
+    s = []
+    for (x, y) in PTS:
+        s.append(f'<circle cx="{ox + x}" cy="{oy + y}" r="7" fill="{col}" opacity="0.85"/>')
+    if line == "v":
+        s.append(f'<line x1="{ox + 118}" y1="{oy + 20}" x2="{ox + 118}" y2="{oy + 140}" stroke="{RED}" stroke-width="2.4"/>')
+    elif line == "d":
+        s.append(f'<line x1="{ox + 20}" y1="{oy + 30}" x2="{ox + 180}" y2="{oy + 140}" stroke="{RED}" stroke-width="2.4"/>')
+    else:
+        s.append(f'<line x1="{ox + 20}" y1="{oy + 86}" x2="{ox + 180}" y2="{oy + 86}" stroke="{RED}" stroke-width="2.4"/>')
+    return s
+
+
+def fig_three_lines():
+    W, H = 940, 470
+    s = head(W, H, "同一群人，三种划线，三种代价", "线没有“对不对”，只有“为哪一个问题服务”")
+    cards = [("分法一：按左边 / 右边", "v", "得到：两类很整齐", "丢掉：跨过线的那两个朋友", BLU),
+             ("分法二：按亲疏远近", "d", "得到：小圈子很清楚", "丢掉：成绩与座位的关系", GRN),
+             ("分法三：按上面 / 下面", "h", "得到：前后排一目了然", "丢掉：谁跟谁在说话", ORG)]
+    x0, cw, gap = 30, 280, 25
+    for i, (title, line, got, lost, col) in enumerate(cards):
+        x = x0 + i * (cw + gap)
+        s.append(box(x, 88, cw, 340, "#fbfcfe", col))
+        s.append(f'<rect x="{x}" y="88" width="{cw}" height="42" rx="8" fill="{col}" opacity="0.16"/>')
+        s.append(txt(x + cw / 2, 116, title, 16, col, weight="bold"))
+        s.extend(_dotline(x + 45, 160, line, col))
+        s.append(txt(x + cw / 2, 340, got, 13, GRN))
+        s.append(txt(x + cw / 2, 372, lost, 13, RED))
+        s.append(txt(x + cw / 2, 404, "同一个班，同六个人", 11, GRY))
+    s.append(txt(W / 2, 456, "换一个目的，就该换一条线；换不动线的人，只能换目的。", 13, INK))
+    save("fig-three-lines", s)
+
+
+# ------------------------------------------------- 图 14 复习与遗忘
+
+def fig_forgetting():
+    W, H = 820, 470
+    s = head(W, H, "遗忘不是记性的失败：复习只是把“再忘一次”推迟", "纵轴：还记得的比例；横轴：天数")
+    s.append(DEFS)
+    ox, oy, w, h = 90, 380, 660, 290
+    s.append(f'<line x1="{ox}" y1="{oy}" x2="{ox + w}" y2="{oy}" stroke="#333" stroke-width="1.6"/>')
+    s.append(f'<line x1="{ox}" y1="{oy}" x2="{ox}" y2="{oy - h}" stroke="#333" stroke-width="1.6"/>')
+    for d in range(0, 15, 2):
+        x = ox + w * d / 14.0
+        s.append(f'<line x1="{x:.0f}" y1="{oy}" x2="{x:.0f}" y2="{oy + 5}" stroke="#333"/>')
+        s.append(txt(x, oy + 24, str(d), 12, GRY))
+    for v in (0, 50, 100):
+        y = oy - h * v / 100.0
+        s.append(f'<line x1="{ox - 5}" y1="{y:.0f}" x2="{ox}" y2="{y:.0f}" stroke="#333"/>')
+        s.append(txt(ox - 22, y + 4, str(v), 12, GRY))
+
+    def curve(reviews, col, width=2.4):
+        pts = []
+        t = 0.0
+        while t <= 14.0001:
+            base = max([r for r in reviews if r <= t + 1e-9] or [0.0])
+            val = 100.0 * math.exp(-0.55 * (t - base))
+            pts.append((ox + w * t / 14.0, oy - h * val / 100.0))
+            t += 0.1
+        d = " ".join(f'{"M" if i == 0 else "L"}{px:.1f},{py:.1f}' for i, (px, py) in enumerate(pts))
+        s.append(f'<path d="{d}" fill="none" stroke="{col}" stroke-width="{width}"/>')
+
+    curve([], GRY, 2.0)
+    curve([2.0], ORG, 2.2)
+    curve([2.0, 5.0, 9.0], BLU, 2.6)
+    s.append(txt(ox + w * 0.95, oy - h * 0.05, "一次都不复习", 12, GRY, anchor="end"))
+    s.append(txt(ox + w * 0.95, oy - h * 0.22, "复习一次", 12, ORG, anchor="end"))
+    s.append(txt(ox + w * 0.62, oy - h * 0.56, "复习三次（间隔拉开）", 12, BLU, anchor="start"))
+    s.append(txt(W / 2, 442, "每一次复习，只是把下一次遗忘推远一点；不复习，曲线会一直落下去。", 13, GRY))
+    save("fig-forgetting", s)
+
+
+# ------------------------------------------------- 图 15 三个场景的赛跑
+
+def fig_race():
+    W, H = 900, 470
+    s = head(W, H, "同一件事，三个场景，三种 τ", "橙＝你有的时间；蓝＝最短处理时间。蓝比橙长多少，就有多来不及")
+    rows = [("急诊：胸痛", 1.0, 2.0, "τ ≈ 2　来不及"),
+            ("公司：产品召回", 1.0, 14.0, "τ ≈ 14　严重来不及"),
+            ("气候：临界点", 40.0, 40.0, "τ ≈ 1　且每年变大")]
+    ox = 210
+    for i, (name, avail, need, label) in enumerate(rows):
+        y = 130 + i * 105
+        s.append(txt(ox - 22, y + 6, name, 15, INK, anchor="end", weight="bold"))
+        scale = 300.0 / 14.0
+        wa = min(avail * scale, 300)
+        wn = min(need * scale, 300)
+        # available (orange)
+        s.append(f'<rect x="{ox}" y="{y - 18}" width="{wa:.0f}" height="16" rx="4" fill="{ORG}" opacity="0.85"/>')
+        s.append(txt(ox + wa + 10, y - 5, f"{avail:g}", 12, ORG, anchor="start"))
+        # need (blue)
+        s.append(f'<rect x="{ox}" y="{y + 4}" width="{wn:.0f}" height="16" rx="4" fill="{BLU}" opacity="0.85"/>')
+        s.append(txt(ox + wn + 10, y + 17, ("" if (need * scale > 300 or avail * scale > 300) else f"{need:g}"), 12, BLU, anchor="start"))
+        if need * scale > 300 or avail * scale > 300:
+            s.append(txt(ox + wn + 10, y + 17, f"{need:g}+", 12, BLU, anchor="start"))
+        s.append(txt(ox + 372, y - 5, label, 13, RED if need > avail * 1.5 else GLD, anchor="start", weight="bold"))
+    s.append(txt(W / 2, 432, "τ 不是“态度指标”，是算术：先量红条，再量蓝条。", 13, INK))
+    save("fig-race", s)
+
+
+# ------------------------------------------------- 图 16 一张价目表，三个人
+
+def fig_price_table():
+    W, H = 960, 520
+    s = head(W, H, "同一张价目表，三个人让出的东西不一样", "想要两样，就得让出第三样——争论的一半，是要求别人替自己付账")
+    cols = [("产品经理", "要：快上线 + 能拼装", "让出：每个细节都讲清", BLU),
+            ("工程师", "要：讲清 + 能验证", "让出：下周就上线", GRN),
+            ("老板", "要：快上线 + 传得下去", "让出：对复杂度的耐心", ORG)]
+    x0, cw, gap = 40, 275, 30
+    for i, (who, want, give, col) in enumerate(cols):
+        x = x0 + i * (cw + gap)
+        s.append(box(x, 100, cw, 300, "#fbfcfe", col))
+        s.append(f'<rect x="{x}" y="100" width="{cw}" height="40" rx="8" fill="{col}" opacity="0.16"/>')
+        s.append(txt(x + cw / 2, 127, who, 18, col, weight="bold"))
+        s.append(box(x + 20, 168, cw - 40, 56, "#eef7ee", GRN, rx=6))
+        s.append(txt(x + cw / 2, 202, want, 13, GRN))
+        s.append(box(x + 20, 244, cw - 40, 56, "#fdecea", RED, rx=6))
+        s.append(txt(x + cw / 2, 278, give, 13, RED))
+        s.append(txt(x + cw / 2, 340, "他说的话听起来都对", 12, GRY))
+        s.append(txt(x + cw / 2, 364, "因为他已经付过账了", 12, GRY))
+    s.append(box(300, 424, 360, 56, "#fff8e1", GLD))
+    s.append(txt(480, 458, "三角形的三个顶点：C 看得准 · A 拼得上 · T 传得下去", 14, GLD, weight="bold"))
+    save("fig-price-table", s)
+
+
+# ------------------------------------------------- 图 17 三个信号
+
+def fig_three_signals():
+    W, H = 800, 440
+    s = head(W, H, "判断“变天”的三个信号：三个中两个，才叫质变", "一个都不中，它只是“很重要”，不是“另一个东西”")
+    items = [("① 什么在变", "有没有一个量，从几乎为零变成明显有？", "水：气泡 → 全沸"),
+             ("② 变之前会不会变慢", "系统是不是越来越难恢复、越来越“抖”？", "学生：错得越来越慢"),
+             ("③ 宏观是不是更好用", "有没有一个更高层的说法，比细节更能预测？", "“他懂了函数”> “他背了题”")]
+    for i, (a, b, c) in enumerate(items):
+        y = 100 + i * 100
+        s.append(f'<circle cx="60" cy="{y + 26}" r="22" fill="{GLD}" opacity="0.15"/>')
+        s.append(txt(60, y + 32, str(i + 1), 20, GLD, weight="bold"))
+        s.append(txt(100, y + 16, a, 17, INK, anchor="start", weight="bold"))
+        s.append(txt(100, y + 44, b, 13, GRY, anchor="start"))
+        s.append(txt(560, y + 32, c, 12, BLU, anchor="start"))
+    s.append(box(90, 380, 620, 44, "#f5f7fa", GRY))
+    s.append(txt(400, 408, "中 0 个：只是波动　|　中 1 个：只能说“像”　|　中 2 个以上：可以叫质变", 13, INK))
+    save("fig-three-signals", s)
+
+
+# ------------------------------------------------- 图 18 一天里的六个核心
+
+def fig_one_day():
+    W, H = 1000, 380
+    s = head(W, H, "一天里的六个核心：从七点到晚上十点", "同一套尺子，在一个普通家庭的一天里各出现一次")
+    s.append(DEFS)
+    ox, oy, w = 70, 200, 860
+    s.append(f'<line x1="{ox}" y1="{oy}" x2="{ox + w}" y2="{oy}" stroke="#999" stroke-width="2"/>')
+    marks = [(0.03, "07:00", "看见", "妈妈看体检报告", BLU),
+             (0.19, "08:00", "记住", "小满的书包", GRN),
+             (0.38, "16:00", "跟上", "爸爸的会议", ORG),
+             (0.56, "19:00", "选择", "白板上的三角形", GLD),
+             (0.74, "21:00", "讲述", "爷爷和姑姑吵架", PNK),
+             (0.93, "22:00", "临界", "小满画“会飞的鱼”", RED)]
+    for i, (u, t, name, ev, col) in enumerate(marks):
+        x = ox + w * u
+        up = (i % 2 == 0)
+        s.append(f'<circle cx="{x:.0f}" cy="{oy}" r="8" fill="{col}"/>')
+        s.append(f'<line x1="{x:.0f}" y1="{oy - 8 if up else oy + 8}" x2="{x:.0f}" y2="{oy - 60 if up else oy + 60}" stroke="{col}" stroke-width="1.2" stroke-dasharray="4,3"/>')
+        tx = x if u < 0.1 or u > 0.85 else x
+        s.append(txt(tx, (oy - 72 if up else oy + 82), f"{t}　{name}", 15, col, weight="bold"))
+        s.append(txt(tx, (oy - 50 if up else oy + 104), ev, 11, GRY))
+    s.append(txt(W / 2, 350, "一天过完，等于把一整套取舍做过一遍——只是我们平时没给它起名字。", 13, INK))
+    save("fig-one-day", s)
+
+
+# ------------------------------------------------- 图 19 六个常见误解
+
+def fig_misconceptions():
+    W, H = 1000, 560
+    s = head(W, H, "六个“听起来很对”的说法，各自漏了一件事", "把误解放进括号，句子才站得住")
+    items = [("“只要努力就来得及”", "τ：有些事的时间窗已经关上了", BLU),
+             ("“记不住就是不用心”", "容量：有限预算一定要丢东西", GRN),
+             ("“划线是中立的”", "成本：每条线都排除了一些人", ORG),
+             ("“我全都要”", "价格：三样里最多同时满足两样", GLD),
+             ("“讲清楚了就不会吵”", "层次：事实、推理、诠释不在同一层", PNK),
+             ("“重要的事就是质变”", "信号：重要只是“大”，不是“换了一个东西”", RED)]
+    cw, ch, gap = 300, 170, 20
+    x0, y0 = (W - (cw * 3 + gap * 2)) / 2, 96
+    for i, (wrong, missing, col) in enumerate(items):
+        x = x0 + (i % 3) * (cw + gap)
+        y = y0 + (i // 3) * (ch + gap)
+        s.append(box(x, y, cw, ch, "#fbfcfe", col))
+        s.append(f'<rect x="{x}" y="{y}" width="6" height="{ch}" rx="3" fill="{col}"/>')
+        s.append(txt(x + cw / 2, y + 46, wrong, 15, INK, weight="bold"))
+        s.append(txt(x + cw / 2, y + 92, "其实漏了：", 11, GRY))
+        s.append(txt(x + cw / 2, y + 122, missing, 12, col))
+    s.append(txt(W / 2, 534, "这本书不打算消灭这些说法，只想让你在使用它们时，知道自己在省略什么。", 13, GRY))
+    save("fig-misconceptions", s)
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     for f in [fig_five_core, fig_triangle, fig_capacity_cascade, fig_six_clocks,
               fig_tau, fig_similarity, fig_spectrum, fig_two_stage,
-              fig_confidence, fig_three_scholars, fig_knowledge_life, fig_bill]:
+              fig_confidence, fig_three_scholars, fig_knowledge_life, fig_bill,
+              fig_three_lines, fig_forgetting, fig_race, fig_price_table,
+              fig_three_signals, fig_one_day, fig_misconceptions]:
         f()
     print("all figures written to", OUT)
 

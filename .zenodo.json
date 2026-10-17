@@ -1,24 +1,103 @@
 {
-  "title": "只能选两样：从来不及、会忘记到说不清——五个核心，看懂复杂世界的取舍 / Pick Two: Five Ideas for Understanding a Complicated World",
-  "description": "<p>看得见的世界背后，都有一张看不见的账单；这张账单只有三个价格——看得准、拼得上、传得下去，最多付得起两个。本书用“看见、记住、跟上、选择、讲述”五个核心，把同一系列五本学术专著的思想，写成一本从十岁到专家都能读完的通俗读本：每节同时提供叙事、公式直觉、可带走的做法与专家的证据边界，并配以可复现的图解与五分钟小实验。</p><p>本仓库同时作为系列的<b>入口文档与外部登记库</b>：收录最小可验证单元、跨域盲测登记（append-only）、合并术语表与五核关系图。源码、构建流程见 <a href=\"https://github.com/lyp0746/knowledge-tradeoffs\">GitHub</a>。内容许可 CC BY 4.0；代码许可 MIT。</p>",
+  "title": "只能选两样：从来不及、会忘记到说不清——六个核心，看懂复杂世界的取舍 / Pick Two: Six Ideas for Understanding a Complicated World",
+  "description": "<p><b>中文.</b> 本著作是这一系列的入口读本：用六个核心，把六本学术专著写成一本从十岁到专家都能读完的书。</p><p>核心主张：看得见的世界背后有一张看不见的账单，账单只有三个价格——看得准、拼得上、传得下去，最多付得起两个。六个核心（看见、记住、跟上、选择、讲述、临界）就是学会读这六张账单。</p><p>结构与证据：19 部、121 页、29 幅图；四种读者分层（故事／多想一层／再想一层／给专家的注），每部配三个生活故事与动手练习，另有练习册、常见误解、给老师家长的一页与二十五个真实的人。</p><p>诚实的纪律：每个核心都标明对应专著的证据等级；凡通俗化损伤原意之处，以专著为准；本书不新增实证结论。</p><p>边界：它是入口，不是替代；具体结论与失败记录在六本专著中。它同时是系列的外部登记库（最小可验证单元、跨域盲测登记、合并术语表）。</p><p>版本：2026-10-18，121 页，19 部，29 图；源码开源，内容 CC BY 4.0，代码 MIT。</p><p><b>系列 / Series.</b> 同一作者的独立研究系列：六本学术专著 + 两本通俗读本。入口与外部登记库：<a href=\"https://github.com/lyp0746/knowledge-tradeoffs\">https://github.com/lyp0746/knowledge-tradeoffs</a>；源码与可复算脚本：<a href=\"https://github.com/lyp0746/knowledge-tradeoffs\">https://github.com/lyp0746/knowledge-tradeoffs</a>。首选预览文件：<code>knowledge-tradeoffs-print.pdf</code>（印刷版）。</p><p><b>English.</b> Abstract (English). This is the entry volume of the series: six core ideas turn six monographs into a book readable from age ten to specialist. Core thesis: behind the visible world lies an invisible bill with three prices — being precise, fitting together, and carrying over — and at most two can be paid; the six cores (seeing, remembering, keeping up, choosing, telling, criticality) teach how to read that bill. Structure and evidence: 19 parts, 121 pages, 29 figures; four reader levels (story / one layer deeper / one more / expert note), three short stories and a hands-on exercise per part, plus a workbook, common misconceptions, a page for teachers and parents, and twenty-five real people. Discipline: each core points to the evidence grade of its source monograph; where popularisation distorts the original, the monograph prevails; the book adds no new empirical claims. Boundaries: it is an entry point, not a substitute; it also serves as the series' external registry. Edition: 2026-10-18, 121 pages, 19 parts, 29 figures.</p>",
   "creators": [
-    {"name": "李毅芃", "affiliation": "独立研究者 / Independent Researcher"}
+    {
+      "name": "李毅芃",
+      "affiliation": "独立研究者 / Independent Researcher"
+    }
   ],
-  "keywords": ["只能选两样", "Pick Two", "不可能三角", "时间错配", "遗忘", "区分", "置信度", "复杂系统", "科普", "复杂知识系统的取舍"],
-  "notes": "科目 / Subjects — 中文：复杂系统、科学普及、信息论、认知科学、系统科学、科学方法论。English: Complex Systems, Popular Science, Information Theory, Cognitive Science, Systems Science, Scientific Methodology.",
+  "keywords": [
+    "只能选两样",
+    "pick two",
+    "不可能三角",
+    "impossibility triangle",
+    "时间错配",
+    "temporal mismatch",
+    "遗忘",
+    "forgetting",
+    "区分",
+    "distinction",
+    "置信度",
+    "confidence",
+    "临界",
+    "criticality",
+    "科普",
+    "popular science"
+  ],
+  "subjects": [
+    {
+      "term": "Complex Systems",
+      "scheme": "custom"
+    },
+    {
+      "term": "Popular Science",
+      "scheme": "custom"
+    },
+    {
+      "term": "Information Theory",
+      "scheme": "custom"
+    },
+    {
+      "term": "Cognitive Science",
+      "scheme": "custom"
+    },
+    {
+      "term": "Systems Science",
+      "scheme": "custom"
+    },
+    {
+      "term": "Scientific Methodology",
+      "scheme": "custom"
+    }
+  ],
+  "notes": "科目（中文）：复杂系统 Complex Systems、科学普及 Popular Science、信息论 Information Theory、认知科学 Cognitive Science、系统科学 Systems Science、科学方法论 Scientific Methodology。语言：中文（含英文摘要）。结构：19 部，约 121 页。首选预览文件：knowledge-tradeoffs-print.pdf（印刷版）。引用格式见 CITATION.cff。",
   "license": "CC-BY-4.0",
   "upload_type": "publication",
   "publication_type": "book",
   "language": "zho",
   "access_right": "open",
-  "publication_date": "2026-10-16",
+  "publication_date": "2026-10-18",
   "related_identifiers": [
-    {"identifier": "https://github.com/lyp0746/knowledge-tradeoffs", "relation": "isSupplementedBy", "scheme": "url"},
-    {"identifier": "10.5281/zenodo.23286403", "relation": "references", "scheme": "doi"},
-    {"identifier": "10.5281/zenodo.23323277", "relation": "references", "scheme": "doi"},
-    {"identifier": "10.5281/zenodo.23412033", "relation": "references", "scheme": "doi"},
-    {"identifier": "10.5281/zenodo.23388629", "relation": "references", "scheme": "doi"},
-    {"identifier": "10.5281/zenodo.23416220", "relation": "references", "scheme": "doi"},
-    {"identifier": "https://github.com/lyp0746/hotspot-bills", "relation": "references", "scheme": "url"}
+    {
+      "identifier": "https://github.com/lyp0746/knowledge-tradeoffs",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.23286403",
+      "relation": "documents",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.23323277",
+      "relation": "documents",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.23412033",
+      "relation": "documents",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.23388629",
+      "relation": "documents",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.23416220",
+      "relation": "documents",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/lyp0746/emergence-critical",
+      "relation": "documents",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/lyp0746/hotspot-bills",
+      "relation": "references",
+      "scheme": "url"
+    }
   ]
 }

@@ -1,24 +1,48 @@
 cff-version: 1.2.0
-message: "If you use this book or registry, please cite it as below."
-title: "只能选两样：从来不及、会忘记到说不清——五个核心，看懂复杂世界的取舍"
+message: "If you use this work, please cite it as below. 若使用本作，请按下述格式引用。"
 type: book
+title: "只能选两样：从来不及、会忘记到说不清——六个核心，看懂复杂世界的取舍 / Pick Two: Six Ideas for Understanding a Complicated World"
+abstract: >-
+  本著作是这一系列的入口读本：用六个核心，把六本学术专著写成一本从十岁到专家都能读完的书。 核心主张：看得见的世界背后有一张看不见的账单，账单只有三个价格——看得准、拼得上、传得下去，最多付得起两个。六个核心（看见、记住、跟上、选择、讲述、临界）就是学会读这六张账单。 结构与证据：19 部、121 页、29 幅图；四种读者分层（故事／多想一层／再想一层／给专家的注），每部配三个生活故事与动手练习，另有练习册、常见误解、给老师家长的一页与二十五个真实的人。 诚实的纪律：每个核心都标明对应专著的证据等级；凡通俗化损伤原意之处，以专著为准；本书不新增实证结论。 边界：它是入口，不是替代；具体结论与失败记录在六本专著中。它同时是系列的外部登记库（最小可验证单元、跨域盲测登记、合并术语表）。 版本：2026-10-18，121 页，19 部，29 图；源码开源，内容 CC BY 4.0，代码 MIT。
+  Abstract (English). This is the entry volume of the series: six core ideas turn six monographs into a book readable from age ten to specialist. Core thesis: behind the visible world lies an invisible bill with three prices — being precise, fitting together, and carrying over — and at most two can be paid; the six cores (seeing, remembering, keeping up, choosing, telling, criticality) teach how to read that bill. Structure and evidence: 19 parts, 121 pages, 29 figures; four reader levels (story / one layer deeper / one more / expert note), three short stories and a hands-on exercise per part, plus a workbook, common misconceptions, a page for teachers and parents, and twenty-five real people. Discipline: each core points to the evidence grade of its source monograph; where popularisation distorts the original, the monograph prevails; the book adds no new empirical claims. Boundaries: it is an entry point, not a substitute; it also serves as the series' external registry. Edition: 2026-10-18, 121 pages, 19 parts, 29 figures.
 authors:
   - family-names: "李"
     given-names: "毅芃"
-    orcid: ""
-date-released: "2026-10-16"
+    alias: "Li Yipeng"
+    email: "1610369302@qq.com"
+    affiliation: "独立研究者 / Independent Researcher"
+date-released: "2026-10-18"
 license: CC-BY-4.0
-url: "https://github.com/lyp0746/knowledge-tradeoffs"
 repository-code: "https://github.com/lyp0746/knowledge-tradeoffs"
-abstract: >-
-  一本把同一作者五本学术专著（《区分的语法》《遗忘的边界》《错位的时间》）
-  的核心，写成人人可读的通俗读本；同时作为系列的外部登记库，
-  收录最小可验证单元、跨域盲测登记与合并术语表。
+url: "https://github.com/lyp0746/knowledge-tradeoffs"
 keywords:
-  - 不可能三角
-  - 时间错配
-  - 遗忘
-  - 区分
-  - 置信度
-  - 复杂系统
-  - 科普
+  - "只能选两样"
+  - "不可能三角"
+  - "时间错配"
+  - "遗忘"
+  - "区分"
+  - "置信度"
+  - "临界"
+  - "科普"
+  - "语言：中文（含英文摘要）"
+  - "Language: Chinese (with English abstract)"
+identifiers:
+  - type: url
+    value: "https://github.com/lyp0746/knowledge-tradeoffs"
+    description: "源码、可复算脚本与构建流程"
+  - type: url
+    value: "https://github.com/lyp0746/knowledge-tradeoffs"
+    description: "系列入口与外部登记库"
+references:
+  - type: book
+    title: "错位的时间：为什么我们总是来不及——社会系统的时间错配与可控性边界 / Desynchronized Time: Why We Are Always Too Late — Temporal Mismatch and the Boundary of Controllability in Social Systems"
+  - type: book
+    title: "遗忘的边界：有限容量下的记忆、智能与自我 / The Boundary of Forgetting: Memory, Intelligence, and the Self under Finite Capacity"
+  - type: book
+    title: "区分的语法：五个领域，同一个二次型 / The Grammar of Distinction: Five Domains, One Quadratic Form"
+  - type: book
+    title: "选择的代价：完备、可组合与可传递的三维权衡——复杂知识系统如何形成、演化与更新 / The Price of Choice: The Impossibility Triangle of Completeness, Composability, and Transfer"
+  - type: book
+    title: "诠释的权衡：历史研究中的置信度、权衡与理论流变——从人物还原到范式转移的五个应用 / The Tradeoffs of Interpretation: Confidence, Trade-offs, and Theoretical Change in Historical Research — Five Applications from Restoring Persons to Paradigm Shifts"
+  - type: book
+    title: "涌现的临界：为什么有些变化回不去——临界、涌现与形式化的边界 / The Criticality of Emergence: Why Some Changes Cannot Be Undone — Criticality, Emergence, and the Limits of Formalization"

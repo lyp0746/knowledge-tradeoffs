@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="500" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">六个“听起来很对”的说法，各自漏了一件事</text>
+<text x="500" y="62" text-anchor="middle" font-size="14" fill="#666666">把误解放进括号，句子才站得住</text>
+<rect x="30.0" y="96" width="300" height="170" rx="8" fill="#fbfcfe" stroke="#2f6db0" stroke-width="1.4"/>
+<rect x="30.0" y="96" width="6" height="170" rx="3" fill="#2f6db0"/>
+<text x="180.0" y="142" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="bold">“只要努力就来得及”</text>
+<text x="180.0" y="188" text-anchor="middle" font-size="11" fill="#666666" font-weight="normal">其实漏了：</text>
+<text x="180.0" y="218" text-anchor="middle" font-size="12" fill="#2f6db0" font-weight="normal">τ：有些事的时间窗已经关上了</text>
+<rect x="350.0" y="96" width="300" height="170" rx="8" fill="#fbfcfe" stroke="#2e7d32" stroke-width="1.4"/>
+<rect x="350.0" y="96" width="6" height="170" rx="3" fill="#2e7d32"/>
+<text x="500.0" y="142" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="bold">“记不住就是不用心”</text>
+<text x="500.0" y="188" text-anchor="middle" font-size="11" fill="#666666" font-weight="normal">其实漏了：</text>
+<text x="500.0" y="218" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="normal">容量：有限预算一定要丢东西</text>
+<rect x="670.0" y="96" width="300" height="170" rx="8" fill="#fbfcfe" stroke="#ef6c00" stroke-width="1.4"/>
+<rect x="670.0" y="96" width="6" height="170" rx="3" fill="#ef6c00"/>
+<text x="820.0" y="142" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="bold">“划线是中立的”</text>
+<text x="820.0" y="188" text-anchor="middle" font-size="11" fill="#666666" font-weight="normal">其实漏了：</text>
+<text x="820.0" y="218" text-anchor="middle" font-size="12" fill="#ef6c00" font-weight="normal">成本：每条线都排除了一些人</text>
+<rect x="30.0" y="286" width="300" height="170" rx="8" fill="#fbfcfe" stroke="#b8862f" stroke-width="1.4"/>
+<rect x="30.0" y="286" width="6" height="170" rx="3" fill="#b8862f"/>
+<text x="180.0" y="332" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="bold">“我全都要”</text>
+<text x="180.0" y="378" text-anchor="middle" font-size="11" fill="#666666" font-weight="normal">其实漏了：</text>
+<text x="180.0" y="408" text-anchor="middle" font-size="12" fill="#b8862f" font-weight="normal">价格：三样里最多同时满足两样</text>
+<rect x="350.0" y="286" width="300" height="170" rx="8" fill="#fbfcfe" stroke="#8e5a9c" stroke-width="1.4"/>
+<rect x="350.0" y="286" width="6" height="170" rx="3" fill="#8e5a9c"/>
+<text x="500.0" y="332" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="bold">“讲清楚了就不会吵”</text>
+<text x="500.0" y="378" text-anchor="middle" font-size="11" fill="#666666" font-weight="normal">其实漏了：</text>
+<text x="500.0" y="408" text-anchor="middle" font-size="12" fill="#8e5a9c" font-weight="normal">层次：事实、推理、诠释不在同一层</text>
+<rect x="670.0" y="286" width="300" height="170" rx="8" fill="#fbfcfe" stroke="#c62828" stroke-width="1.4"/>
+<rect x="670.0" y="286" width="6" height="170" rx="3" fill="#c62828"/>
+<text x="820.0" y="332" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="bold">“重要的事就是质变”</text>
+<text x="820.0" y="378" text-anchor="middle" font-size="11" fill="#666666" font-weight="normal">其实漏了：</text>
+<text x="820.0" y="408" text-anchor="middle" font-size="12" fill="#c62828" font-weight="normal">信号：重要只是“大”，不是“换了一个东西”</text>
+<text x="500.0" y="534" text-anchor="middle" font-size="13" fill="#666666" font-weight="normal">这本书不打算消灭这些说法，只想让你在使用它们时，知道自己在省略什么。</text>
+</svg>

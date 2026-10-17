@@ -34,9 +34,10 @@ DATA_DIR = os.path.join(HERE, "data")
 FRONT = [("序章　三件小事，一个形状", "front_intro.html", "intro"),
          ("零基础读法：连一个公式都不用看", "front_zerobase.html", "zerobase"),
          ("怎么读这本书：四种读者，四条路线", "front_howto.html", "howto"),
-         ("五个核心一页速查", "front_quick.html", "quick")]
+         ("六个核心一页速查", "front_quick.html", "quick")]
 BACK = [("尾声　元学习：一本永远写不完的书", "back_epilogue.html", "epilogue"),
-        ("本系列（七本书）", "back_series.html", "series"),
+        ("后记　写给十年后的读者", "back_postscript.html", "postscript"),
+        ("本系列（六本专著 + 两本通俗读本）", "back_series.html", "series"),
         ("附录　关系图 · 术语 · 可验证单元 · 延伸阅读", "appendix_a.html", "apxA")]
 
 

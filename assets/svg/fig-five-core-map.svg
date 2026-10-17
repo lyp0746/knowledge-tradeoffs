@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
-<rect width="1000" height="640" fill="#ffffff"/>
-<text x="500" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">五个核心：同一笔账单的五个项目</text>
-<text x="500" y="62" text-anchor="middle" font-size="14" fill="#666666">看见 · 记住 · 跟上 → 选择（至多取二）→ 讲述 → 元学习</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" width="1000" height="720" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="1000" height="720" fill="#ffffff"/>
+<text x="500" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">六个核心：同一笔账单的六个项目</text>
+<text x="500" y="62" text-anchor="middle" font-size="14" fill="#666666">看见 · 记住 · 跟上 → 选择（至多取二）→ 讲述 → 元学习；临界是前五者共同作用时的门槛</text>
 <defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#666666"/></marker><marker id="ahg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#b8862f"/></marker></defs>
 <rect x="90" y="100" width="240" height="110" rx="8" fill="#f5f7fa" stroke="#2f6db0" stroke-width="1.4"/>
 <text x="210" y="140" text-anchor="middle" font-size="20" fill="#2f6db0" font-weight="bold">看见（对象）</text>
@@ -26,4 +26,6 @@
 <line x1="500" y1="532" x2="500" y2="580" stroke="#666666" stroke-width="2.0" marker-end="url(#ah)"/>
 <rect x="150" y="584" width="700" height="46" rx="8" fill="#eef2f6" stroke="#2f6db0" stroke-width="1.4"/>
 <text x="500" y="614" text-anchor="middle" font-size="15" fill="#2f6db0" font-weight="normal">元学习：观察 → 抽象 → 建模 → 应用 → 反馈 → 更新</text>
+<rect x="90" y="654" width="820" height="48" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2" stroke-dasharray="8,5"/>
+<text x="500" y="684" text-anchor="middle" font-size="16" fill="#c62828" font-weight="bold">临界（第六个核心）：前五个一起作用时，那道“门槛”在哪里</text>
 </svg>

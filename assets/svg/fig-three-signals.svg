@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="800" height="440" fill="#ffffff"/>
+<text x="400" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">判断“变天”的三个信号：三个中两个，才叫质变</text>
+<text x="400" y="62" text-anchor="middle" font-size="14" fill="#666666">一个都不中，它只是“很重要”，不是“另一个东西”</text>
+<circle cx="60" cy="126" r="22" fill="#b8862f" opacity="0.15"/>
+<text x="60" y="132" text-anchor="middle" font-size="20" fill="#b8862f" font-weight="bold">1</text>
+<text x="100" y="116" text-anchor="start" font-size="17" fill="#1a1a1a" font-weight="bold">① 什么在变</text>
+<text x="100" y="144" text-anchor="start" font-size="13" fill="#666666" font-weight="normal">有没有一个量，从几乎为零变成明显有？</text>
+<text x="560" y="132" text-anchor="start" font-size="12" fill="#2f6db0" font-weight="normal">水：气泡 → 全沸</text>
+<circle cx="60" cy="226" r="22" fill="#b8862f" opacity="0.15"/>
+<text x="60" y="232" text-anchor="middle" font-size="20" fill="#b8862f" font-weight="bold">2</text>
+<text x="100" y="216" text-anchor="start" font-size="17" fill="#1a1a1a" font-weight="bold">② 变之前会不会变慢</text>
+<text x="100" y="244" text-anchor="start" font-size="13" fill="#666666" font-weight="normal">系统是不是越来越难恢复、越来越“抖”？</text>
+<text x="560" y="232" text-anchor="start" font-size="12" fill="#2f6db0" font-weight="normal">学生：错得越来越慢</text>
+<circle cx="60" cy="326" r="22" fill="#b8862f" opacity="0.15"/>
+<text x="60" y="332" text-anchor="middle" font-size="20" fill="#b8862f" font-weight="bold">3</text>
+<text x="100" y="316" text-anchor="start" font-size="17" fill="#1a1a1a" font-weight="bold">③ 宏观是不是更好用</text>
+<text x="100" y="344" text-anchor="start" font-size="13" fill="#666666" font-weight="normal">有没有一个更高层的说法，比细节更能预测？</text>
+<text x="560" y="332" text-anchor="start" font-size="12" fill="#2f6db0" font-weight="normal">“他懂了函数”> “他背了题”</text>
+<rect x="90" y="380" width="620" height="44" rx="8" fill="#f5f7fa" stroke="#666666" stroke-width="1.4"/>
+<text x="400" y="408" text-anchor="middle" font-size="13" fill="#1a1a1a" font-weight="normal">中 0 个：只是波动　|　中 1 个：只能说“像”　|　中 2 个以上：可以叫质变</text>
+</svg>
