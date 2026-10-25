@@ -313,7 +313,7 @@ def main():
     for part in parts:
         for ch in part.get("chapters", []):
             if ch.get("written") and ch.get("file"):
-                add(ch["file"], f"第{ch['no']}章　{ch['title']}", f"ch{ch['no']}", 1)
+                add(ch["file"], f"第{ch['no']}部　{ch['title']}", f"ch{ch['no']}", 1)
     for title, fname, anchor in BACK:
         add(fname, title, anchor, 1)
 

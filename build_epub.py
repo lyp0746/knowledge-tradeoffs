@@ -98,7 +98,7 @@ def build():
     for part in parts:
         for ch in part.get("chapters", []):
             if ch.get("written") and ch.get("file"):
-                add(f"ch{ch['no']}", ch["file"], f"第{ch['no']}章　{ch['title']}",
+                add(f"ch{ch['no']}", ch["file"], f"第{ch['no']}部　{ch['title']}",
                     f"ch{ch['no']}", True)
     for title, fname, anchor in BACK:
         add(anchor, fname, title, anchor, False)
@@ -187,7 +187,7 @@ def nav_items(parts, docs):
                 ]
                 secs.append({"title": sec, "href": f"{href}#{sid}",
                              "children": sub_children})
-            children.append({"title": f"第{ch['no']}章　{ch['title']}", "href": href,
+            children.append({"title": f"第{ch['no']}部　{ch['title']}", "href": href,
                              "children": secs})
         items.append({"title": part["part"], "href": children[0]["href"] if children else "",
                       "children": children})

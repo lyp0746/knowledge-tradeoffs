@@ -32,7 +32,7 @@ OUTPUT = os.path.join(HERE, "output")
 DATA_DIR = os.path.join(HERE, "data")
 
 FRONT = [("总纲　现实中不存在无限", "front_finitude.html", "finitude"),
-         ("序章　三件小事，一个形状", "front_intro.html", "intro"),
+         ("序章　四件小事，三句话", "front_intro.html", "intro"),
          ("零基础读法：连一个公式都不用看", "front_zerobase.html", "zerobase"),
          ("怎么读这本书：四种读者，四条路线", "front_howto.html", "howto"),
          ("六个核心一页速查", "front_quick.html", "quick")]
@@ -179,9 +179,9 @@ def build_toc(parts):
         for ch in part.get("chapters", []):
             anchor = f'ch{ch["no"]}'
             if ch.get("written") and ch.get("file"):
-                rows.append(f'<div class="l2 done"><a href="#{anchor}">第{ch["no"]}章　{ch["title"]}</a></div>')
+                rows.append(f'<div class="l2 done"><a href="#{anchor}">第{ch["no"]}部　{ch["title"]}</a></div>')
             else:
-                rows.append(f'<div class="l2 todo">第{ch["no"]}章　{ch["title"]}（待写）</div>')
+                rows.append(f'<div class="l2 todo">第{ch["no"]}部　{ch["title"]}（待写）</div>')
             subs = numbered_subsections(ch["file"]) if ch.get("file") else []
             used = set()
             for sec in ch.get("sections", []):
