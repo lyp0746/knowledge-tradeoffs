@@ -57,7 +57,7 @@
   "publication_type": "book",
   "language": "zho",
   "access_right": "open",
-  "publication_date": "2026-10-25",
+  "publication_date": "2026-10-31",
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.23447129",
@@ -120,5 +120,5 @@
       "scheme": "doi"
     }
   ],
-  "version": "2026-10-25"
+  "version": "2026-10-31"
 }
