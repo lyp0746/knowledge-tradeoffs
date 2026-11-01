@@ -19,3 +19,5 @@ desktop.ini
 .tmp/
 *.tmp
 *.meta
+
+*.log
