@@ -1,6 +1,6 @@
 {
-  "title": "只能选两样：从来不及、会忘记到说不清——六个核心，看懂复杂世界的取舍 / Pick Two: Six Ideas for Understanding a Complicated World",
-  "description": "<p><b>中文.</b> 本著作是这一系列的入口读本：用六个核心，把六本学术专著写成一本从十岁到专家都能读完的书。</p><p>核心主张：看得见的世界背后有一张看不见的账单，账单只有三个价格——看得准、拼得上、传得下去，最多付得起两个。六个核心（看见、记住、跟上、选择、讲述、临界）就是学会读这六张账单。</p><p>结构与证据：19 部、123 页、29 幅图、约 8.6 万字；四种读者分层（故事／多想一层／再想一层／给专家的注），每部配三个生活故事与动手练习，另有练习册、常见误解、给老师家长的一页与二十五个真实的人。</p><p><b>本版修订（2026-10-25）。</b>统一全书的单位与编号：目录、EPUB 导航与 Markdown 一律用“第 X 部”，与正文标题一致；把正文中 4216 个直引号改为中文引号；修掉 8 处重复嵌套的提示框；把“序章 三件小事”改为“四件小事，三句话”（正文原本写了四件事、三句话）；同步第 7/10/12/14 部的实际篇数（31 个为什么、13 个误解、20 道题、25 个真实的人）；系列页更新为九本书并加入《心灵的分岔》；修正《选择的代价》DOI（23388629→23388628）。</p><p>诚实的纪律：每个核心都标明对应专著的证据等级；凡通俗化损伤原意之处，以专著为准；本书不新增实证结论。书中的 A／B／C 分级与“可证伪登记簿”入口，见各章小框与附录。</p><p>边界：它是入口，不是替代；具体结论与失败记录在六本专著中。它同时是系列的外部登记库（最小可验证单元、跨域盲测登记、合并术语表）。</p><p>版本：2026-10-25，123 页，19 部，29 图，约 8.6 万字；源码开源，内容 CC BY 4.0，代码 MIT。</p><p><b>系列 / Series.</b> 同一作者的独立研究系列：九本书（六本学术专著 + 两本通俗读本 + 一本科普专著《心灵的分岔》）与九篇工作论文。入口与外部登记库：<a href=\"https://github.com/lyp0746/knowledge-tradeoffs\">https://github.com/lyp0746/knowledge-tradeoffs</a>；源码与可复算脚本：<a href=\"https://github.com/lyp0746/knowledge-tradeoffs\">https://github.com/lyp0746/knowledge-tradeoffs</a>。首选预览文件：<code>knowledge-tradeoffs-print.pdf</code>（印刷版）。</p><p><b>English.</b> Abstract (English). This is the entry volume of the series: six core ideas turn six monographs into a book readable from age ten to specialist. Core thesis: behind the visible world lies an invisible bill with three prices — being precise, fitting together, and carrying over — and at most two can be paid; the six cores (seeing, remembering, keeping up, choosing, telling, criticality) teach how to read that bill. Structure and evidence: 19 parts, 123 pages, 29 figures, about 86,000 Chinese characters; four reader levels (story / one layer deeper / one more / expert note), three short stories and a hands-on exercise per part, plus a workbook, common misconceptions, a page for teachers and parents, and twenty-five real people. Discipline: each core points to the evidence grade of its source monograph; where popularisation distorts the original, the monograph prevails; the book adds no new empirical claims. Boundaries: it is an entry point, not a substitute; it also serves as the series' external registry. Edition: 2026-10-25, 123 pages, 19 parts, 29 figures.</p><p><b>What is new in this edition (2026-10-25).</b> Unit and numbering unified: TOC, EPUB navigation and Markdown now all say “Part X”, matching the body headings; 4,216 straight quotation marks converted to Chinese quotation marks; eight duplicated nested callout boxes removed; the opening “three small things” corrected to “four small things, three sentences” (the text actually has four events and three phrases); the counts in Parts 7/10/12/14 synced to the actual contents (31 questions, 13 misconceptions, 20 exercises, 25 real people); the series page updated to nine books and now includes <i>The Forking Mind</i>; the DOI of <i>The Price of Choice</i> corrected (23388629→23388628).</p>",
+  "title": "只能选两样：从来不及、会忘记到说不清——六个核心，看懂复杂世界的取舍 / 只能选两样: 从来不及、会忘记到说不清——六个核心，看懂复杂世界的取舍",
+  "description": "<p><b>中文摘要。</b>看得见的世界背后，都有一张看不见的账单；这张账单只有三个价格——看得准、拼得上、传得下去，最多付得起两个。本书用“看见、记住、跟上、选择、讲述、临界”六个核心，把同一系列六本学术专著（《区分的语言》《遗忘的边界》《错位的时间》《选择的代价》《诠释的权衡》《涌现的临界》）的思想，写成一本从十岁到专家都能读完的通俗读本：每一部都配生活故事、公式直觉、可带走的做法与专家的证据边界，并配以可作图的图解与五分钟小实验；另设“十二个常见误解”“给老师、家长和孩子的一页”“一天里的六个核心”，让同一套尺子可以被课堂、家庭和一个人自己直接使用。这一版的共同地基写在卷首《总纲　现实中不存在无限》：不是先观察到六个领域都在取舍，而是有限承载者必须在描述、组合、传递之间分配同一份预算；六个核心是这一事实的六种显影。</p>\n<p><b>核心主张。</b>从来不及、会忘记到说不清——六个核心，看懂复杂世界的取舍。本书不把「只能选两样」写成一本无所不包的概论，而是把一个问题做深：一个有限的东西，怎样一边保持结构，一边还能变化。</p>\n<p><b>结构与证据。</b>5 部分、19 章、157 页、附录 A–F、18 幅图；每章保留证据分级（A/B/C 与甲/乙/丙）与可证伪登记，失败与撤回写在正文，不放进脚注。</p>\n<p><b>本版修订（2026-11-02）。</b>统一书名与副题、统一版式与页码；附录收束为 A–F；旧版残留的 DOI、系列计数与错字订正；本版以概念 DOI 归档，版本 DOI 指向 2026-11-02 这一版。</p>\n<p><b>诚实纪律。</b>结论强度不超过证据强度；能算的给出数，不能算的写明「判不了」；每一条硬约束都写清谁在承担代价，以及这条限制使什么成为可能。</p>\n<p><b>边界。</b>本书给坐标与判据，不给判决；它不替代领域专家的材料，也不把类比写成定理。具体边界见各章末与附录的登记簿。</p>\n<p><b>版本信息。</b>2026-11-02，157 页，19 章，附录 A–F；内容 CC BY 4.0，代码 MIT。</p>\n<p><b>Abstract.</b> 只能选两样: 从来不及、会忘记到说不清——六个核心，看懂复杂世界的取舍. The book does not attempt an all-encompassing survey; it works one problem through: how does something finite keep its structure while still being able to change? It is organised in 5 parts and 19 chapters, with appendices A–F and 18 figures; every chapter keeps its evidence grades (A/B/C) and falsifiability register, and reports failures and retractions in the body.</p>\n<p><b>Core thesis.</b> 从来不及、会忘记到说不清——六个核心，看懂复杂世界的取舍. The book offers coordinates and criteria, not verdicts.</p>\n<p><b>Structure and evidence.</b> 5 parts, 19 chapters, 157 pages, appendices A–F, 18 figures. The apparatus is open: data, scripts and registers are in the repository; the prose keeps a single visible grade per claim rather than hedging every clause.</p>\n<p><b>This edition (2026-11-02).</b> Title and subtitle unified; layout and folios unified; appendices consolidated to A–F; residual DOI, series-count and typographic errors corrected; the concept DOI is stable and the version DOI points to this edition.</p>\n<p><b>Discipline.</b> Conclusion strength does not exceed evidence strength; what can be computed is computed, what cannot is marked as undecidable; every hard constraint names who pays for it and what it makes possible.</p>\n<p><b>Boundaries.</b> The book gives coordinates and criteria, not verdicts; it does not replace field expertise, and it does not dress an analogy as a theorem. See the chapter ends and the register appendices for specific limits.</p>\n<p><b>Edition.</b> 2026-11-02, 157 pages, 19 chapters, appendices A–F; content CC BY 4.0, code MIT.</p>",
   "creators": [
     {
       "name": "李毅芃",
@@ -51,13 +51,13 @@
       "scheme": "custom"
     }
   ],
-  "notes": "科目（中文）：复杂系统 Complex Systems、科学普及 Popular Science、信息论 Information Theory、认知科学 Cognitive Science、系统科学 Systems Science、科学方法论 Scientific Methodology。语言：中文（含英文摘要）。结构：19 部，123 页，29 图，约 8.6 万字。首选预览文件：knowledge-tradeoffs-print.pdf（印刷版）。引用格式见 CITATION.cff。 系列共 19 件（18 件作品 + 本合集）；related_identifiers 已按裸 DOI 归一。",
+  "notes": "学术专著/读本。2026-11-02，157 页，19 章，附录 A–F。",
   "license": "CC-BY-4.0",
   "upload_type": "publication",
   "publication_type": "book",
   "language": "zho",
   "access_right": "open",
-  "publication_date": "2026-10-31",
+  "publication_date": "2026-11-02",
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.23447129",
@@ -85,7 +85,7 @@
       "scheme": "doi"
     },
     {
-      "identifier": "10.5281/zenodo.23447311",
+      "identifier": "10.5281/zenodo.23440900",
       "relation": "references",
       "scheme": "doi"
     },
@@ -120,5 +120,5 @@
       "scheme": "doi"
     }
   ],
-  "version": "2026-10-31"
+  "version": "2026-11-02"
 }
