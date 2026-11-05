@@ -13,11 +13,11 @@ authors:
     affiliation: "独立研究者 / Independent Researcher"
 date-released: 2026-11-02
 version: "2026-11-02"
-doi: 10.5281/zenodo.23830302
+doi: 10.5281/zenodo.23888220
 concept-doi: 10.5281/zenodo.23440905
 license: CC-BY-4.0
 repository-code: "https://github.com/lyp0746/knowledge-tradeoffs"
-url: "https://doi.org/10.5281/zenodo.23830302"
+url: "https://doi.org/10.5281/zenodo.23888220"
 keywords:
   - "只能选两样"
   - "不可能三角"
@@ -49,4 +49,4 @@ references:
     title: "诠释的权衡：历史研究中的置信度、权衡与理论流变——从人物还原到范式转移的五个应用 / The Tradeoffs of Interpretation: Confidence, Trade-offs, and Theoretical Change in Historical Research — Five Applications from Restoring Persons to Paradigm Shifts"
   - type: book
     title: "涌现的临界：为什么有些变化回不去——临界、涌现与形式化的边界 / The Criticality of Emergence: Why Some Changes Cannot Be Undone — Criticality, Emergence, and the Limits of Formalization"
-    doi: 10.5281/zenodo.23440900
+    doi: 10.5281/zenodo.23930831
