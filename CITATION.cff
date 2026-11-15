@@ -13,11 +13,11 @@ authors:
     affiliation: "独立研究者 / Independent Researcher"
 date-released: "2026-11-14"
 version: "2026-11-14"
-doi: 10.5281/zenodo.23888220
+doi: 10.5281/zenodo.24239808
 concept-doi: 10.5281/zenodo.23440905
 license: CC-BY-4.0
 repository-code: "https://github.com/lyp0746/knowledge-tradeoffs"
-url: "https://doi.org/10.5281/zenodo.23888220"
+url: "https://doi.org/10.5281/zenodo.24239808"
 keywords:
   - "只能选两样"
   - "不可能三角"
