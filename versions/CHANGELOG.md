@@ -47,3 +47,13 @@
 - 第 10 章 32 个问答并为 3 节（资源与注意力／记忆与讲述／选择与框架），保留每个问题为加粗小标。
 - 第 13 章 25 个人物并为 3 组；第 15 章 20 个追问并入 3 节，第 16 章 12 句并为 1 节。
 - 页数不变（185）。
+
+## 2026-11-25　工作区清理（断舍离）
+
+派生件与旧快照不留副本；版本靠本文件与 Zenodo 记录追溯。本次删除：
+
+- `output/book-ereader.html`
+- `output/book.html`
+
+重建：`build_book.py --pdf` / `--ereader --pdf`、`build_markdown.py`、`build_epub.py`；
+论文用 `generate_publication_suite.py`。
