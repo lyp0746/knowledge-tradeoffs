@@ -22,6 +22,7 @@ copy output/book-ereader.html "$REL/$BASE-ereader.html"
 copy output/markdown/book.md  "$REL/$BASE.md"
 copy assets/svg/cover.svg     "$REL/cover.svg"
 copy assets/knowledge-tradeoffs-explorer.html  "$REL/knowledge-tradeoffs-explorer.html"
+copy assets/knowledge-tradeoffs-reader.html    "$REL/knowledge-tradeoffs-reader.html"
 
 if [ -d output/markdown ]; then
   mkdir -p "$REL/$BASE-markdown"; cp -r output/markdown/. "$REL/$BASE-markdown/"
